@@ -10,3 +10,7 @@
 
 --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Protect-Material-Detection
 
+
+
+# 2. Content Understanding
+
