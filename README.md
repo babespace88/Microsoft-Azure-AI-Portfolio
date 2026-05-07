@@ -17,9 +17,13 @@
 AI Invoice Fraud Detection Agent
 
 
---> Prepare extract json from content understanding microsoft azure
+--> Go to content understanding and select invoice Invoice Data Extraction
 
---> save json file from extraction and go to create agent in microsft foundry : https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Understanding
+--> upload invoice image and analyze image
+
+--> download & extract json from analyze invoice image
+
+--> save json file from extraction invoice sample and go to create agent in microsft foundry : https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Understanding
 
 --> setup agent using chatgpt 4.1 version and upload json file at developer env
 
