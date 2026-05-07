@@ -1,1 +1,110 @@
+# AI Invoice Fraud Detection Agent Setup Guide
+
+## 1. Install Required Libraries
+
+Run the following command:
+
+```bash
+pip install azure-ai-projects>=2.1.0
+pip install azure-identity
+```
+
+---
+
+## 2. Login to Azure
+
+Authenticate using Azure CLI:
+
+```bash
+az login
+```
+
+A browser login page will appear.
+
+Complete authentication using your Azure account.
+
+---
+
+## 3. Verify Azure Subscription
+
+After login:
+
+```bash
+az account show
+```
+
+---
+
+## 4. Configure Azure AI Foundry Project
+
+Update the following variables in your Python code:
+
+```python
+endpoint = "YOUR_AZURE_AI_FOUNDRY_ENDPOINT"
+
+my_agent = "ai-detection-invoice"
+
+my_version = "8"
+```
+
+---
+
+## 5. Upload Invoice Image
+
+Place your invoice image in the project folder:
+
+```text
+invoice.jpg
+```
+
+Supported formats:
+
+* JPG
+* PNG
+* PDF
+
+---
+
+## 6. Run AI Invoice Detection Agent
+
+Execute the Python script:
+
+```bash
+python app.py
+```
+
+---
+
+## 7. AI Agent Features
+
+The AI agent can:
+
+* Analyze uploaded invoice images
+* Detect fake or suspicious invoices
+* Compare invoice patterns
+* Identify anomalies
+* Explain fraud indicators
+
+---
+
+## 8. Example Output
+
+```text
+This invoice is likely FAKE because the invoice structure differs from known invoice patterns and the total amount appears suspicious.
+```
+
+---
+
+## 9. Technologies Used
+
+* Azure AI Foundry
+* GPT-4o Vision
+* Azure AI Projects SDK
+* Python
+* Invoice OCR
+* AI Fraud Detection
+* Multimodal AI Agent
+
+```
+```
 
