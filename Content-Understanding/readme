@@ -1,3 +1,145 @@
+# AI Invoice Fraud Detection Agent using Azure Content Understanding
+
+## Project Overview
+
+This project demonstrates how to build an enterprise AI Invoice Fraud Detection Agent using Azure Content Understanding, Azure AI Foundry, GPT-4.1, and structured invoice JSON extraction workflows.
+
+The solution analyzes invoice images, extracts structured invoice data into JSON format, and uses an AI agent to determine whether invoices are likely REAL or FAKE based on invoice patterns and fraud indicators.
+
+---
+
+# Step 1 — Azure Content Understanding
+
+Open Azure Content Understanding and select:
+
+```text
+Invoice Data Extraction
+```
+
+Analyze uploaded invoice images to extract:
+
+* Invoice ID
+* Vendor details
+* Customer information
+* Invoice totals
+* Dates
+* Line items
+* Payment details
+
+---
+
+# Step 2 — Upload and Analyze Invoice Image
+
+Upload an invoice image (JPG, PNG, or PDF) into Azure Content Understanding.
+
+Run invoice analysis to generate structured extraction results.
+
+---
+
+# Step 3 — Download Extracted JSON
+
+Download the extracted invoice JSON results from Azure Content Understanding.
+
+Save multiple real invoice extraction samples for AI fraud detection training and comparison.
+
+Project repository:
+
+[Microsoft Azure AI Portfolio - Content Understanding](https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Understanding?utm_source=chatgpt.com)
+
+---
+
+# Step 4 — Create AI Agent in Microsoft Azure AI Foundry
+
+Create a new AI agent in Azure AI Foundry.
+
+Configure the agent using:
+
+* GPT-4.1
+* Invoice fraud detection instructions
+* Structured invoice reasoning workflow
+
+Upload the extracted invoice JSON files into the developer environment for reference invoice comparison.
+
+---
+
+# Step 5 — Configure AI Fraud Detection Instructions
+
+The AI agent should:
+
+* Analyze uploaded invoice images
+* Compare invoices against known real invoice JSON samples
+* Detect suspicious invoice patterns
+* Determine whether invoices are REAL or FAKE
+* Explain fraud indicators professionally
+
+---
+
+# Step 6 — Run the Agent in Google Colab
+
+Open Google Colab and paste the provided Python integration code.
+
+Required setup:
+
+* Azure AI Projects SDK
+* Azure authentication
+* Azure AI Foundry endpoint connection
+
+Install dependencies:
+
+```bash
+pip install azure-ai-projects>=2.1.0
+pip install azure-identity
+```
+
+Authenticate Azure account:
+
+```bash
+az login
+```
+
+---
+
+# Step 7 — Deploy the AI Invoice Fraud Detection Agent
+
+Deploy and test the AI agent using the provided Colab notebook:
+
+[AI Invoice Fraud Detection Agent Notebook](https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/blob/main/Content-Understanding/AI_Invoice_Fraud_Detection_Agent_2.ipynb?utm_source=chatgpt.com)
+
+---
+
+# Technologies Used
+
+* Azure Content Understanding
+* Azure AI Foundry
+* GPT-4.1
+* Azure AI Projects SDK
+* Python
+* OCR
+* JSON Extraction
+* AI Fraud Detection
+* Multimodal AI
+* Invoice Intelligence
+
+---
+
+# Enterprise Workflow
+
+```text
+Invoice Image
+        ↓
+Azure Content Understanding
+        ↓
+Structured JSON Extraction
+        ↓
+Azure AI Foundry Agent
+        ↓
+Invoice Fraud Detection
+        ↓
+REAL / FAKE Classification
+```
+
+
+
 # AI Invoice Fraud Detection Agent Setup Guide
 
 ## 1. Install Required Libraries
