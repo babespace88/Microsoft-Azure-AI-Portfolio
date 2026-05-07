@@ -1,0 +1,906 @@
+{
+	"id": "b70c9d36-8d50-45df-b907-0a8e4835167f",
+	"status": "Succeeded",
+	"result": {
+		"analyzerId": "prebuilt-invoice",
+		"apiVersion": "2025-05-01-preview",
+		"createdAt": "2026-05-07T05:58:47Z",
+		"stringEncoding": "utf16",
+		"warnings": [],
+		"contents": [
+			{
+				"markdown": "<figure>\n\nMaybank\n\n</figure>\n\n\nReload\n\nSuccessful\n\nReference ID\n\n6 May 2026, 9:47 AM\n\n91987\\.\n\nProvider\n\nDigi\n\nMobile Number\n\nAmount\n\nRM 30.00\n\nNote: This receipt is computer generated and no signature is\nrequired.\n\nMalayan Banking Berhad (Co. Reg. : 196001000142)\nMaybank Islamic Berhad (Co. Reg. : 200701029411)\n",
+				"fields": {
+					"CustomerName": {
+						"type": "string",
+						"confidence": 0.939
+					},
+					"InvoiceDate": {
+						"type": "date",
+						"valueDate": "2026-05-06",
+						"spans": [
+							{
+								"offset": 65,
+								"length": 19
+							}
+						],
+						"confidence": 0.776,
+						"source": "D(1,454.0000,322.0000,655.0000,322.0000,655.0000,346.0000,454.0000,346.0000)"
+					},
+					"CustomerId": {
+						"type": "string",
+						"confidence": 0.935
+					},
+					"PurchaseOrder": {
+						"type": "string",
+						"confidence": 0.784
+					},
+					"InvoiceId": {
+						"type": "string",
+						"valueString": "91987\\.",
+						"spans": [
+							{
+								"offset": 86,
+								"length": 7
+							}
+						],
+						"confidence": 0.775,
+						"source": "D(1,40.0000,344.0000,119.0000,344.0000,119.0000,367.0000,40.0000,367.0000)"
+					},
+					"DueDate": {
+						"type": "date",
+						"confidence": 0.988
+					},
+					"VendorName": {
+						"type": "string",
+						"valueString": "Maybank",
+						"spans": [
+							{
+								"offset": 10,
+								"length": 7
+							}
+						],
+						"confidence": 0.553,
+						"source": "D(1,106.0000,50.0000,347.0000,49.0000,347.0000,103.0000,106.0000,106.0000)"
+					},
+					"VendorAddress": {
+						"type": "string",
+						"confidence": 0.777
+					},
+					"VendorAddressRecipient": {
+						"type": "string",
+						"confidence": 0.744
+					},
+					"CustomerAddress": {
+						"type": "string",
+						"confidence": 0.991
+					},
+					"CustomerAddressRecipient": {
+						"type": "string",
+						"confidence": 0.725
+					},
+					"BillingAddress": {
+						"type": "string",
+						"confidence": 0.978
+					},
+					"BillingAddressRecipient": {
+						"type": "string",
+						"confidence": 0.85
+					},
+					"ShippingAddress": {
+						"type": "string",
+						"confidence": 0.989
+					},
+					"ShippingAddressRecipient": {
+						"type": "string",
+						"confidence": 0.991
+					},
+					"SubTotal": {
+						"type": "number",
+						"confidence": 0.937
+					},
+					"TotalDiscount": {
+						"type": "number",
+						"confidence": 0.851
+					},
+					"TotalTax": {
+						"type": "number",
+						"confidence": 0.836
+					},
+					"InvoiceTotal": {
+						"type": "number",
+						"confidence": 0.914
+					},
+					"AmountDue": {
+						"type": "number",
+						"confidence": 0.917
+					},
+					"PreviousUnpaidBalance": {
+						"type": "number",
+						"confidence": 0.939
+					},
+					"RemittanceAddress": {
+						"type": "string",
+						"confidence": 0.982
+					},
+					"RemittanceAddressRecipient": {
+						"type": "string",
+						"confidence": 0.848
+					},
+					"ServiceAddress": {
+						"type": "string",
+						"confidence": 0.947
+					},
+					"ServiceAddressRecipient": {
+						"type": "string",
+						"confidence": 0.951
+					},
+					"VendorTaxId": {
+						"type": "string",
+						"confidence": 0.904
+					},
+					"CustomerTaxId": {
+						"type": "string",
+						"confidence": 0.931
+					},
+					"PaymentTerm": {
+						"type": "string",
+						"confidence": 0.819
+					},
+					"TaxDetails": {
+						"type": "array"
+					},
+					"Items": {
+						"type": "array",
+						"valueArray": [
+							{
+								"type": "object",
+								"valueObject": {
+									"TotalPrice": {
+										"type": "number",
+										"valueNumber": 30,
+										"spans": [
+											{
+												"offset": 134,
+												"length": 8
+											}
+										],
+										"confidence": 0.664,
+										"source": "D(1,41.0000,750.0000,221.0000,750.0000,221.0000,785.0000,41.0000,785.0000)"
+									},
+									"Date": {
+										"type": "date",
+										"valueDate": "2026-05-06",
+										"spans": [
+											{
+												"offset": 65,
+												"length": 11
+											}
+										],
+										"confidence": 0.879,
+										"source": "D(1,454.0000,323.0000,570.0000,323.0000,570.0000,346.0000,454.0000,346.0000)"
+									},
+									"Description": {
+										"type": "string",
+										"valueString": "Reload",
+										"spans": [
+											{
+												"offset": 31,
+												"length": 6
+											}
+										],
+										"confidence": 0.601,
+										"source": "D(1,40.0000,192.0000,140.0000,191.0000,140.0000,219.0000,41.0000,219.0000)"
+									},
+									"Quantity": {
+										"type": "number",
+										"confidence": 0.981
+									},
+									"ProductCode": {
+										"type": "string",
+										"confidence": 0.868
+									},
+									"TaxAmount": {
+										"type": "number",
+										"confidence": 0.98
+									},
+									"TaxRate": {
+										"type": "number",
+										"confidence": 0.98
+									},
+									"Unit": {
+										"type": "string",
+										"confidence": 0.987
+									},
+									"UnitPrice": {
+										"type": "number",
+										"confidence": 0.769
+									}
+								}
+							}
+						]
+					}
+				},
+				"kind": "document",
+				"startPageNumber": 1,
+				"endPageNumber": 1,
+				"unit": "pixel",
+				"pages": [
+					{
+						"pageNumber": 1,
+						"angle": -0.0724,
+						"width": 720,
+						"height": 1078,
+						"spans": [
+							{
+								"offset": 0,
+								"length": 314
+							}
+						],
+						"words": [
+							{
+								"content": "Maybank",
+								"span": {
+									"offset": 10,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,106,50,347,49,347,103,106,106)"
+							},
+							{
+								"content": "Reload",
+								"span": {
+									"offset": 31,
+									"length": 6
+								},
+								"confidence": 0.996,
+								"source": "D(1,40,192,140,191,140,219,41,219)"
+							},
+							{
+								"content": "Successful",
+								"span": {
+									"offset": 39,
+									"length": 10
+								},
+								"confidence": 0.992,
+								"source": "D(1,550,196,656,196,656,217,550,217)"
+							},
+							{
+								"content": "Reference",
+								"span": {
+									"offset": 51,
+									"length": 9
+								},
+								"confidence": 0.995,
+								"source": "D(1,41,301,162,301,162,325,41,325)"
+							},
+							{
+								"content": "ID",
+								"span": {
+									"offset": 61,
+									"length": 2
+								},
+								"confidence": 0.989,
+								"source": "D(1,171,301,197,300,197,325,171,325)"
+							},
+							{
+								"content": "6",
+								"span": {
+									"offset": 65,
+									"length": 1
+								},
+								"confidence": 0.994,
+								"source": "D(1,454,323,467,323,467,346,454,346)"
+							},
+							{
+								"content": "May",
+								"span": {
+									"offset": 67,
+									"length": 3
+								},
+								"confidence": 0.994,
+								"source": "D(1,475,323,514,323,514,346,475,346)"
+							},
+							{
+								"content": "2026,",
+								"span": {
+									"offset": 71,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,519,323,570,323,570,346,519,346)"
+							},
+							{
+								"content": "9:47",
+								"span": {
+									"offset": 77,
+									"length": 4
+								},
+								"confidence": 0.987,
+								"source": "D(1,576,323,615,323,615,346,576,346)"
+							},
+							{
+								"content": "AM",
+								"span": {
+									"offset": 82,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,621,323,655,322,655,346,621,346)"
+							},
+							{
+								"content": "91987.",
+								"span": {
+									"offset": 86,
+									"length": 7
+								},
+								"confidence": 0.601,
+								"source": "D(1,40,344,119,344,119,367,40,367)"
+							},
+							{
+								"content": "Provider",
+								"span": {
+									"offset": 95,
+									"length": 8
+								},
+								"confidence": 0.994,
+								"source": "D(1,41,436,143,436,143,460,41,460)"
+							},
+							{
+								"content": "Digi",
+								"span": {
+									"offset": 105,
+									"length": 4
+								},
+								"confidence": 0.99,
+								"source": "D(1,41,479,94,479,94,506,41,506)"
+							},
+							{
+								"content": "Mobile",
+								"span": {
+									"offset": 111,
+									"length": 6
+								},
+								"confidence": 0.998,
+								"source": "D(1,41,570,122,570,122,595,41,595)"
+							},
+							{
+								"content": "Number",
+								"span": {
+									"offset": 118,
+									"length": 6
+								},
+								"confidence": 0.998,
+								"source": "D(1,130,570,230,570,230,595,130,595)"
+							},
+							{
+								"content": "Amount",
+								"span": {
+									"offset": 126,
+									"length": 6
+								},
+								"confidence": 0.998,
+								"source": "D(1,39,706,142,706,142,729,39,730)"
+							},
+							{
+								"content": "RM",
+								"span": {
+									"offset": 134,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,41,751,101,751,101,785,41,785)"
+							},
+							{
+								"content": "30.00",
+								"span": {
+									"offset": 137,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,114,751,221,750,221,785,114,785)"
+							},
+							{
+								"content": "Note:",
+								"span": {
+									"offset": 144,
+									"length": 5
+								},
+								"confidence": 0.992,
+								"source": "D(1,41,857,94,857,94,880,41,879)"
+							},
+							{
+								"content": "This",
+								"span": {
+									"offset": 150,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,99,857,139,857,139,880,99,880)"
+							},
+							{
+								"content": "receipt",
+								"span": {
+									"offset": 155,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,146,857,211,857,211,880,146,880)"
+							},
+							{
+								"content": "is",
+								"span": {
+									"offset": 163,
+									"length": 2
+								},
+								"confidence": 0.997,
+								"source": "D(1,216,857,233,857,233,880,216,880)"
+							},
+							{
+								"content": "computer",
+								"span": {
+									"offset": 166,
+									"length": 8
+								},
+								"confidence": 0.996,
+								"source": "D(1,239,857,337,857,337,881,239,880)"
+							},
+							{
+								"content": "generated",
+								"span": {
+									"offset": 175,
+									"length": 9
+								},
+								"confidence": 0.994,
+								"source": "D(1,344,857,445,857,445,880,344,881)"
+							},
+							{
+								"content": "and",
+								"span": {
+									"offset": 185,
+									"length": 3
+								},
+								"confidence": 0.998,
+								"source": "D(1,452,857,489,857,489,880,452,880)"
+							},
+							{
+								"content": "no",
+								"span": {
+									"offset": 189,
+									"length": 2
+								},
+								"confidence": 0.997,
+								"source": "D(1,497,857,521,857,521,880,497,880)"
+							},
+							{
+								"content": "signature",
+								"span": {
+									"offset": 192,
+									"length": 9
+								},
+								"confidence": 0.992,
+								"source": "D(1,527,857,619,856,619,880,527,880)"
+							},
+							{
+								"content": "is",
+								"span": {
+									"offset": 202,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,624,856,643,857,643,880,624,880)"
+							},
+							{
+								"content": "required.",
+								"span": {
+									"offset": 205,
+									"length": 9
+								},
+								"confidence": 0.993,
+								"source": "D(1,40,884,132,883,132,906,40,906)"
+							},
+							{
+								"content": "Malayan",
+								"span": {
+									"offset": 216,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,41,975,126,975,126,999,41,998)"
+							},
+							{
+								"content": "Banking",
+								"span": {
+									"offset": 224,
+									"length": 7
+								},
+								"confidence": 0.997,
+								"source": "D(1,134,974,217,974,217,999,134,999)"
+							},
+							{
+								"content": "Berhad",
+								"span": {
+									"offset": 232,
+									"length": 6
+								},
+								"confidence": 0.996,
+								"source": "D(1,225,974,297,974,297,999,225,999)"
+							},
+							{
+								"content": "(Co.",
+								"span": {
+									"offset": 239,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,306,974,342,974,342,999,306,999)"
+							},
+							{
+								"content": "Reg.",
+								"span": {
+									"offset": 244,
+									"length": 4
+								},
+								"confidence": 0.991,
+								"source": "D(1,349,974,392,974,392,998,349,999)"
+							},
+							{
+								"content": ":",
+								"span": {
+									"offset": 249,
+									"length": 1
+								},
+								"confidence": 0.994,
+								"source": "D(1,398,974,402,974,402,998,398,998)"
+							},
+							{
+								"content": "196001000142)",
+								"span": {
+									"offset": 251,
+									"length": 13
+								},
+								"confidence": 0.993,
+								"source": "D(1,408,974,554,974,554,998,408,998)"
+							},
+							{
+								"content": "Maybank",
+								"span": {
+									"offset": 265,
+									"length": 7
+								},
+								"confidence": 0.996,
+								"source": "D(1,41,1015,133,1015,133,1038,41,1038)"
+							},
+							{
+								"content": "Islamic",
+								"span": {
+									"offset": 273,
+									"length": 7
+								},
+								"confidence": 0.956,
+								"source": "D(1,138,1014,213,1014,213,1038,138,1038)"
+							},
+							{
+								"content": "Berhad",
+								"span": {
+									"offset": 281,
+									"length": 6
+								},
+								"confidence": 0.995,
+								"source": "D(1,220,1014,292,1014,292,1038,220,1038)"
+							},
+							{
+								"content": "(Co.",
+								"span": {
+									"offset": 288,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,300,1014,336,1014,336,1038,300,1038)"
+							},
+							{
+								"content": "Reg.",
+								"span": {
+									"offset": 293,
+									"length": 4
+								},
+								"confidence": 0.99,
+								"source": "D(1,344,1014,384,1014,384,1038,344,1038)"
+							},
+							{
+								"content": ":",
+								"span": {
+									"offset": 298,
+									"length": 1
+								},
+								"confidence": 0.977,
+								"source": "D(1,389,1014,397,1014,397,1038,389,1038)"
+							},
+							{
+								"content": "200701029411)",
+								"span": {
+									"offset": 300,
+									"length": 13
+								},
+								"confidence": 0.963,
+								"source": "D(1,403,1014,546,1014,546,1039,403,1038)"
+							}
+						],
+						"lines": [
+							{
+								"content": "Maybank",
+								"source": "D(1,106,49,346,48,346,104,106,105)",
+								"span": {
+									"offset": 10,
+									"length": 7
+								}
+							},
+							{
+								"content": "Reload",
+								"source": "D(1,40,192,140,191,140,218,41,219)",
+								"span": {
+									"offset": 31,
+									"length": 6
+								}
+							},
+							{
+								"content": "Successful",
+								"source": "D(1,549,196,655,195,655,216,549,217)",
+								"span": {
+									"offset": 39,
+									"length": 10
+								}
+							},
+							{
+								"content": "Reference ID",
+								"source": "D(1,41,301,196,300,196,324,41,325)",
+								"span": {
+									"offset": 51,
+									"length": 12
+								}
+							},
+							{
+								"content": "6 May 2026, 9:47 AM",
+								"source": "D(1,454,323,655,322,655,346,454,346)",
+								"span": {
+									"offset": 65,
+									"length": 19
+								}
+							},
+							{
+								"content": "91987.",
+								"source": "D(1,40,344,119,344,119,367,40,367)",
+								"span": {
+									"offset": 86,
+									"length": 7
+								}
+							},
+							{
+								"content": "Provider",
+								"source": "D(1,41,435,142,436,142,459,41,459)",
+								"span": {
+									"offset": 95,
+									"length": 8
+								}
+							},
+							{
+								"content": "Digi",
+								"source": "D(1,41,479,93,479,93,506,41,506)",
+								"span": {
+									"offset": 105,
+									"length": 4
+								}
+							},
+							{
+								"content": "Mobile Number",
+								"source": "D(1,41,570,229,570,229,595,41,595)",
+								"span": {
+									"offset": 111,
+									"length": 13
+								}
+							},
+							{
+								"content": "Amount",
+								"source": "D(1,39,706,141,706,141,729,39,729)",
+								"span": {
+									"offset": 126,
+									"length": 6
+								}
+							},
+							{
+								"content": "RM 30.00",
+								"source": "D(1,41,751,220,750,220,784,41,785)",
+								"span": {
+									"offset": 134,
+									"length": 8
+								}
+							},
+							{
+								"content": "Note: This receipt is computer generated and no signature is",
+								"source": "D(1,41,857,643,856,643,880,41,880)",
+								"span": {
+									"offset": 144,
+									"length": 60
+								}
+							},
+							{
+								"content": "required.",
+								"source": "D(1,40,884,132,883,132,905,40,906)",
+								"span": {
+									"offset": 205,
+									"length": 9
+								}
+							},
+							{
+								"content": "Malayan Banking Berhad (Co. Reg. : 196001000142)",
+								"source": "D(1,41,974,554,974,554,998,41,999)",
+								"span": {
+									"offset": 216,
+									"length": 48
+								}
+							},
+							{
+								"content": "Maybank Islamic Berhad (Co. Reg. : 200701029411)",
+								"source": "D(1,41,1014,545,1014,545,1038,41,1038)",
+								"span": {
+									"offset": 265,
+									"length": 48
+								}
+							}
+						]
+					}
+				],
+				"paragraphs": [
+					{
+						"content": "Maybank",
+						"source": "D(1,106,49,346,48,346,104,106,105)",
+						"span": {
+							"offset": 10,
+							"length": 7
+						}
+					},
+					{
+						"content": "Reload",
+						"source": "D(1,40,192,140,191,140,218,41,219)",
+						"span": {
+							"offset": 31,
+							"length": 6
+						}
+					},
+					{
+						"content": "Successful",
+						"source": "D(1,549,196,655,195,655,216,549,217)",
+						"span": {
+							"offset": 39,
+							"length": 10
+						}
+					},
+					{
+						"content": "Reference ID",
+						"source": "D(1,41,301,196,300,196,324,41,325)",
+						"span": {
+							"offset": 51,
+							"length": 12
+						}
+					},
+					{
+						"content": "6 May 2026, 9:47 AM",
+						"source": "D(1,454,323,655,322,655,346,454,346)",
+						"span": {
+							"offset": 65,
+							"length": 19
+						}
+					},
+					{
+						"content": "91987.",
+						"source": "D(1,40,344,119,344,119,367,40,367)",
+						"span": {
+							"offset": 86,
+							"length": 7
+						}
+					},
+					{
+						"content": "Provider",
+						"source": "D(1,41,435,142,436,142,459,41,459)",
+						"span": {
+							"offset": 95,
+							"length": 8
+						}
+					},
+					{
+						"content": "Digi",
+						"source": "D(1,41,479,93,479,93,506,41,506)",
+						"span": {
+							"offset": 105,
+							"length": 4
+						}
+					},
+					{
+						"content": "Mobile Number",
+						"source": "D(1,41,570,229,570,229,595,41,595)",
+						"span": {
+							"offset": 111,
+							"length": 13
+						}
+					},
+					{
+						"content": "Amount",
+						"source": "D(1,39,706,141,706,141,729,39,729)",
+						"span": {
+							"offset": 126,
+							"length": 6
+						}
+					},
+					{
+						"content": "RM 30.00",
+						"source": "D(1,41,751,220,750,220,784,41,785)",
+						"span": {
+							"offset": 134,
+							"length": 8
+						}
+					},
+					{
+						"content": "Note: This receipt is computer generated and no signature is required.",
+						"source": "D(1,40,857,643,856,643,906,40,906)",
+						"span": {
+							"offset": 144,
+							"length": 70
+						}
+					},
+					{
+						"content": "Malayan Banking Berhad (Co. Reg. : 196001000142) Maybank Islamic Berhad (Co. Reg. : 200701029411)",
+						"source": "D(1,41,974,554,974,554,1038,41,1039)",
+						"span": {
+							"offset": 216,
+							"length": 97
+						}
+					}
+				],
+				"sections": [
+					{
+						"span": {
+							"offset": 0,
+							"length": 313
+						},
+						"elements": [
+							"/figures/0",
+							"/paragraphs/1",
+							"/paragraphs/2",
+							"/paragraphs/3",
+							"/paragraphs/4",
+							"/paragraphs/5",
+							"/paragraphs/6",
+							"/paragraphs/7",
+							"/paragraphs/8",
+							"/paragraphs/9",
+							"/paragraphs/10",
+							"/paragraphs/11",
+							"/paragraphs/12"
+						]
+					}
+				],
+				"figures": [
+					{
+						"source": "D(1,40,43,347,43,347,107,40,107)",
+						"span": {
+							"offset": 0,
+							"length": 28
+						},
+						"elements": [
+							"/paragraphs/0"
+						],
+						"id": "1.1"
+					}
+				]
+			}
+		]
+	},
+	"usage": {
+		"documentPages": 1,
+		"tokens": {
+			"contextualization": 1000,
+			"gpt-4o-input": 7572,
+			"gpt-4o-output": 433
+		}
+	}
+}

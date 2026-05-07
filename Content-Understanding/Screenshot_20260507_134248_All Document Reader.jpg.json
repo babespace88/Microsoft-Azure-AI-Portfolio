@@ -1,0 +1,4449 @@
+{
+	"id": "d7810571-02fc-4bbe-b078-ed0eb51a839a",
+	"status": "Succeeded",
+	"result": {
+		"analyzerId": "prebuilt-invoice",
+		"apiVersion": "2025-05-01-preview",
+		"createdAt": "2026-05-07T05:52:07Z",
+		"stringEncoding": "utf16",
+		"warnings": [],
+		"contents": [
+			{
+				"markdown": "<figure>\n\nhotlink\n\n</figure>\n\n\n<!-- PageHeader=\"Maxis Broadband Sdn Bhd Registration No. 199201002549 (234053-D) Level 21, Menara Maxis, Kuala Lumpur City Centre, Off Jalan Ampang. 50088 Kuala Lumpur. Service Tax ID : W10-1808-32000489\" -->\n\nBIL\nBIL\n\n\n# Your Bill Statement / Penyata Bil Anda\n\nD\n\nA\n\nkaun\n\nE\n\n9\nhere to learn how\npay your bill easily\n\nFor assistance, WhatsApp us at\n+6 012 345 1123 or call us at 123.\nUntuk bantuan, hubungi kami melalui\nWhatsapp di +60 12 345 1123\natau membuat panggilan ke 123.\n\nStatement Date / Tarikh Penyata\n14/03/2026\nBilling Period / Tempoh Bil\n14/02/2026 - 13/03/2026\nBill Reference / No. Rujukan\n1601506579\n\nTotal Payable(RM) /\nJumlah Perlu Dibayar (RM)\n\n(4.90)\n\n\n<table>\n<tr>\n<td colspan=\"2\">Overdue Amount / Caj Tertunggak (74.10)</td>\n</tr>\n<tr>\n<td>Previous Balance / Baki Terdahulu</td>\n<td>75.90</td>\n</tr>\n<tr>\n<td>Payment Received / Bayaran Diterima</td>\n<td>(150.00)</td>\n</tr>\n<tr>\n<td>Adjustment / Pelarasan</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>Current Charges / Caj Semasa</td>\n<td>69.20</td>\n</tr>\n</table>\n\n\nPayment Last Date / Tarikh Akhir Bayaran 08/04/2026\n\nPay Now / Untuk Boyer Sekarony\nClick Here / kis Sim\n\\>\n\n\n# Important Notice / Notis Penting\n\nMake your payment by your due date for seamless service. Thank you for keeping your account in good standing.\nFrom 1 July 2025, get your LHDN e-Invoice via the Hotlink App or Hotlink Self-serve Portal. For more info & FAQs,\nvisit www.maxis.com.my/einvoice\n\n\n# Important Bill Information / Informasi Bill Penting\n\n-Your service may be temporarily interrupted if full payment is not received by the due date. Reconnection fee and\nlate payment charges may apply. / Perkhidmatan anda mungkin terganggu buat sementara waktu sekiranya bayaran\npenuh tidak diterima sebelum tarikh akhir bil. Caj penyambungan semula dan caj bayaran lewat akan dikenakan.\n-For refund of deposit or balance in your terminated account or service, please submit your request at\nwww.maxis.com.my/refund / Untuk bayaran balik deposit atau baki dalam akaun atau sila hantar permintaan anda di\nwww.maxis.com.my/refund\n\n1\n\nSI\n\n\n<figure>\n\nTotal Payable(RM) /\nJumiah Perlu Dibayar (RM)\n(4.90)\n\nCurrent Charges due date /\nTarikh Akhir Bayaran Caj Semasa 08/04/2026\n\nJom\nPAY\n\nBiller C\nRef-1(Account M-\n\n</figure>\n\n\nJomPAY online at Internet and Mobile Banking with your\nCurrent, Savings or Credit Card account\nRef-1 is the Account No/No. Akaun\n\n<!-- PageNumber=\"Page 1 out of 3\" -->\n",
+				"fields": {
+					"CustomerName": {
+						"type": "string",
+						"confidence": 0.955
+					},
+					"InvoiceDate": {
+						"type": "date",
+						"valueDate": "2026-03-14",
+						"spans": [
+							{
+								"offset": 545,
+								"length": 10
+							}
+						],
+						"confidence": 0.868,
+						"source": "D(1,315.0000,173.0000,376.0000,173.0000,376.0000,185.0000,315.0000,185.0000)"
+					},
+					"CustomerId": {
+						"type": "string",
+						"confidence": 0.681
+					},
+					"PurchaseOrder": {
+						"type": "string",
+						"confidence": 0.777
+					},
+					"InvoiceId": {
+						"type": "string",
+						"valueString": "1601506579",
+						"spans": [
+							{
+								"offset": 637,
+								"length": 10
+							}
+						],
+						"confidence": 0.867,
+						"source": "D(1,314.0000,227.0000,379.0000,227.0000,379.0000,239.0000,314.0000,239.0000)"
+					},
+					"DueDate": {
+						"type": "date",
+						"valueDate": "2026-04-08",
+						"spans": [
+							{
+								"offset": 1101,
+								"length": 10
+							}
+						],
+						"confidence": 0.925,
+						"source": "D(1,538.0000,374.0000,605.0000,374.0000,605.0000,389.0000,538.0000,390.0000)"
+					},
+					"VendorName": {
+						"type": "string",
+						"valueString": "Maxis Broadband Sdn Bhd",
+						"spans": [
+							{
+								"offset": 48,
+								"length": 23
+							}
+						],
+						"confidence": 0.619,
+						"source": "D(1,105.0000,30.0000,205.0000,30.0000,205.0000,40.0000,105.0000,40.0000)"
+					},
+					"VendorAddress": {
+						"type": "string",
+						"valueString": "Level 21, Menara Maxis, Kuala Lumpur City Centre, Off Jalan Ampang. 50088 Kuala Lumpur.",
+						"spans": [
+							{
+								"offset": 113,
+								"length": 49
+							},
+							{
+								"offset": 163,
+								"length": 37
+							}
+						],
+						"confidence": 0.685,
+						"source": "D(1,105.0000,51.0000,289.0000,51.0000,289.0000,62.0000,105.0000,62.0000);D(1,106.0000,62.0000,254.0000,62.0000,254.0000,72.0000,106.0000,72.0000)"
+					},
+					"VendorAddressRecipient": {
+						"type": "string",
+						"confidence": 0.689
+					},
+					"CustomerAddress": {
+						"type": "string",
+						"confidence": 0.749
+					},
+					"CustomerAddressRecipient": {
+						"type": "string",
+						"confidence": 0.671
+					},
+					"BillingAddress": {
+						"type": "string",
+						"confidence": 0.922
+					},
+					"BillingAddressRecipient": {
+						"type": "string",
+						"confidence": 0.918
+					},
+					"ShippingAddress": {
+						"type": "string",
+						"confidence": 0.953
+					},
+					"ShippingAddressRecipient": {
+						"type": "string",
+						"confidence": 0.943
+					},
+					"SubTotal": {
+						"type": "number",
+						"confidence": 0.918
+					},
+					"TotalDiscount": {
+						"type": "number",
+						"confidence": 0.948
+					},
+					"TotalTax": {
+						"type": "number",
+						"confidence": 0.942
+					},
+					"InvoiceTotal": {
+						"type": "number",
+						"confidence": 0.91
+					},
+					"AmountDue": {
+						"type": "number",
+						"confidence": 0.937
+					},
+					"PreviousUnpaidBalance": {
+						"type": "number",
+						"confidence": 0.988
+					},
+					"RemittanceAddress": {
+						"type": "string",
+						"confidence": 0.918
+					},
+					"RemittanceAddressRecipient": {
+						"type": "string",
+						"confidence": 0.823
+					},
+					"ServiceAddress": {
+						"type": "string",
+						"confidence": 0.953
+					},
+					"ServiceAddressRecipient": {
+						"type": "string",
+						"confidence": 0.937
+					},
+					"VendorTaxId": {
+						"type": "string",
+						"valueString": "W10-1808-32000489",
+						"spans": [
+							{
+								"offset": 218,
+								"length": 17
+							}
+						],
+						"confidence": 0.74,
+						"source": "D(1,166.0000,72.0000,246.0000,72.0000,246.0000,82.0000,166.0000,82.0000)"
+					},
+					"CustomerTaxId": {
+						"type": "string",
+						"confidence": 0.918
+					},
+					"PaymentTerm": {
+						"type": "string",
+						"confidence": 0.792
+					},
+					"TaxDetails": {
+						"type": "array"
+					},
+					"Items": {
+						"type": "array"
+					}
+				},
+				"kind": "document",
+				"startPageNumber": 1,
+				"endPageNumber": 1,
+				"unit": "pixel",
+				"pages": [
+					{
+						"pageNumber": 1,
+						"angle": 0.02151697,
+						"width": 720,
+						"height": 1015,
+						"spans": [
+							{
+								"offset": 0,
+								"length": 2451
+							}
+						],
+						"words": [
+							{
+								"content": "hotlink",
+								"span": {
+									"offset": 10,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,32,72,94,72,94,90,32,90)"
+							},
+							{
+								"content": "Maxis",
+								"span": {
+									"offset": 48,
+									"length": 5
+								},
+								"confidence": 0.994,
+								"source": "D(1,105,30,128,30,128,40,105,40)"
+							},
+							{
+								"content": "Broadband",
+								"span": {
+									"offset": 54,
+									"length": 9
+								},
+								"confidence": 0.992,
+								"source": "D(1,130,30,169,30,169,40,130,40)"
+							},
+							{
+								"content": "Sdn",
+								"span": {
+									"offset": 64,
+									"length": 3
+								},
+								"confidence": 0.949,
+								"source": "D(1,172,30,186,30,186,40,172,40)"
+							},
+							{
+								"content": "Bhd",
+								"span": {
+									"offset": 68,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,189,30,205,30,205,40,189,40)"
+							},
+							{
+								"content": "Registration",
+								"span": {
+									"offset": 72,
+									"length": 12
+								},
+								"confidence": 0.943,
+								"source": "D(1,105,40,143,40,143,50,105,50)"
+							},
+							{
+								"content": "No.",
+								"span": {
+									"offset": 85,
+									"length": 3
+								},
+								"confidence": 0.953,
+								"source": "D(1,145,40,155,40,155,50,145,50)"
+							},
+							{
+								"content": "199201002549",
+								"span": {
+									"offset": 89,
+									"length": 12
+								},
+								"confidence": 0.989,
+								"source": "D(1,157,40,204,40,204,50,157,50)"
+							},
+							{
+								"content": "(234053-D)",
+								"span": {
+									"offset": 102,
+									"length": 10
+								},
+								"confidence": 0.925,
+								"source": "D(1,206,40,245,39,245,49,206,50)"
+							},
+							{
+								"content": "Level",
+								"span": {
+									"offset": 113,
+									"length": 5
+								},
+								"confidence": 0.992,
+								"source": "D(1,105,51,125,51,125,61,105,61)"
+							},
+							{
+								"content": "21,",
+								"span": {
+									"offset": 119,
+									"length": 3
+								},
+								"confidence": 0.975,
+								"source": "D(1,128,51,138,51,138,61,128,61)"
+							},
+							{
+								"content": "Menara",
+								"span": {
+									"offset": 123,
+									"length": 6
+								},
+								"confidence": 0.991,
+								"source": "D(1,140,51,165,51,165,61,140,61)"
+							},
+							{
+								"content": "Maxis,",
+								"span": {
+									"offset": 130,
+									"length": 6
+								},
+								"confidence": 0.99,
+								"source": "D(1,167,51,190,51,190,61,167,61)"
+							},
+							{
+								"content": "Kuala",
+								"span": {
+									"offset": 137,
+									"length": 5
+								},
+								"confidence": 0.989,
+								"source": "D(1,192,51,213,51,213,61,192,61)"
+							},
+							{
+								"content": "Lumpur",
+								"span": {
+									"offset": 143,
+									"length": 6
+								},
+								"confidence": 0.993,
+								"source": "D(1,215,51,243,51,243,62,215,62)"
+							},
+							{
+								"content": "City",
+								"span": {
+									"offset": 150,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,245,51,259,51,259,62,245,62)"
+							},
+							{
+								"content": "Centre,",
+								"span": {
+									"offset": 155,
+									"length": 7
+								},
+								"confidence": 0.962,
+								"source": "D(1,262,51,289,51,289,62,262,62)"
+							},
+							{
+								"content": "Off",
+								"span": {
+									"offset": 163,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,106,62,117,62,117,72,106,72)"
+							},
+							{
+								"content": "Jalan",
+								"span": {
+									"offset": 167,
+									"length": 5
+								},
+								"confidence": 0.989,
+								"source": "D(1,120,62,139,62,139,72,120,72)"
+							},
+							{
+								"content": "Ampang.",
+								"span": {
+									"offset": 173,
+									"length": 7
+								},
+								"confidence": 0.664,
+								"source": "D(1,141,62,172,62,172,72,141,72)"
+							},
+							{
+								"content": "50088",
+								"span": {
+									"offset": 181,
+									"length": 5
+								},
+								"confidence": 0.963,
+								"source": "D(1,175,62,199,62,199,72,175,72)"
+							},
+							{
+								"content": "Kuala",
+								"span": {
+									"offset": 187,
+									"length": 5
+								},
+								"confidence": 0.67,
+								"source": "D(1,201,62,221,62,221,72,201,72)"
+							},
+							{
+								"content": "Lumpur.",
+								"span": {
+									"offset": 193,
+									"length": 7
+								},
+								"confidence": 0.977,
+								"source": "D(1,223,62,254,62,254,72,223,72)"
+							},
+							{
+								"content": "Service",
+								"span": {
+									"offset": 201,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,106,72,133,72,133,82,106,82)"
+							},
+							{
+								"content": "Tax",
+								"span": {
+									"offset": 209,
+									"length": 3
+								},
+								"confidence": 0.996,
+								"source": "D(1,135,72,148,72,148,82,135,82)"
+							},
+							{
+								"content": "ID",
+								"span": {
+									"offset": 213,
+									"length": 2
+								},
+								"confidence": 0.99,
+								"source": "D(1,150,72,158,72,158,82,150,82)"
+							},
+							{
+								"content": ":",
+								"span": {
+									"offset": 216,
+									"length": 1
+								},
+								"confidence": 0.992,
+								"source": "D(1,160,72,164,72,164,82,160,82)"
+							},
+							{
+								"content": "W10-1808-32000489",
+								"span": {
+									"offset": 218,
+									"length": 17
+								},
+								"confidence": 0.973,
+								"source": "D(1,166,72,246,72,246,82,166,82)"
+							},
+							{
+								"content": "BIL",
+								"span": {
+									"offset": 242,
+									"length": 3
+								},
+								"confidence": 0.995,
+								"source": "D(1,623,46,660,46,660,62,623,61)"
+							},
+							{
+								"content": "BIL",
+								"span": {
+									"offset": 246,
+									"length": 3
+								},
+								"confidence": 0.989,
+								"source": "D(1,647,67,674,68,674,81,647,81)"
+							},
+							{
+								"content": "Your",
+								"span": {
+									"offset": 254,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,57,117,89,117,89,133,57,133)"
+							},
+							{
+								"content": "Bill",
+								"span": {
+									"offset": 259,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,94,117,114,117,114,134,94,133)"
+							},
+							{
+								"content": "Statement",
+								"span": {
+									"offset": 264,
+									"length": 9
+								},
+								"confidence": 0.992,
+								"source": "D(1,119,117,184,117,184,134,119,134)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 274,
+									"length": 1
+								},
+								"confidence": 0.992,
+								"source": "D(1,188,117,196,117,196,134,188,134)"
+							},
+							{
+								"content": "Penyata",
+								"span": {
+									"offset": 276,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,199,117,251,117,251,134,199,134)"
+							},
+							{
+								"content": "Bil",
+								"span": {
+									"offset": 284,
+									"length": 3
+								},
+								"confidence": 0.993,
+								"source": "D(1,255,117,273,117,273,134,255,134)"
+							},
+							{
+								"content": "Anda",
+								"span": {
+									"offset": 288,
+									"length": 4
+								},
+								"confidence": 0.988,
+								"source": "D(1,277,117,311,117,311,134,277,134)"
+							},
+							{
+								"content": "D",
+								"span": {
+									"offset": 294,
+									"length": 1
+								},
+								"confidence": 0.988,
+								"source": "D(1,58,152,67,151,67,159,58,159)"
+							},
+							{
+								"content": "A",
+								"span": {
+									"offset": 297,
+									"length": 1
+								},
+								"confidence": 0.078,
+								"source": "D(1,55,200,63,200,62,208,55,208)"
+							},
+							{
+								"content": "kaun",
+								"span": {
+									"offset": 300,
+									"length": 4
+								},
+								"confidence": 0.605,
+								"source": "D(1,125,201,144,201,144,208,125,208)"
+							},
+							{
+								"content": "E",
+								"span": {
+									"offset": 306,
+									"length": 1
+								},
+								"confidence": 0.444,
+								"source": "D(1,57,210,63,210,63,217,57,217)"
+							},
+							{
+								"content": "9",
+								"span": {
+									"offset": 309,
+									"length": 1
+								},
+								"confidence": 0.207,
+								"source": "D(1,58,263,62,263,62,272,58,272)"
+							},
+							{
+								"content": "here",
+								"span": {
+									"offset": 311,
+									"length": 4
+								},
+								"confidence": 0.644,
+								"source": "D(1,76,262,101,262,101,271,76,271)"
+							},
+							{
+								"content": "to",
+								"span": {
+									"offset": 316,
+									"length": 2
+								},
+								"confidence": 0.992,
+								"source": "D(1,104,262,113,262,113,271,104,271)"
+							},
+							{
+								"content": "learn",
+								"span": {
+									"offset": 319,
+									"length": 5
+								},
+								"confidence": 0.949,
+								"source": "D(1,115,262,138,262,138,271,115,271)"
+							},
+							{
+								"content": "how",
+								"span": {
+									"offset": 325,
+									"length": 3
+								},
+								"confidence": 0.995,
+								"source": "D(1,140,262,160,262,160,271,140,271)"
+							},
+							{
+								"content": "pay",
+								"span": {
+									"offset": 329,
+									"length": 3
+								},
+								"confidence": 0.993,
+								"source": "D(1,74,272,89,272,89,281,74,282)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 333,
+									"length": 4
+								},
+								"confidence": 0.995,
+								"source": "D(1,92,272,112,272,112,281,92,281)"
+							},
+							{
+								"content": "bill",
+								"span": {
+									"offset": 338,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,114,272,127,272,127,281,114,281)"
+							},
+							{
+								"content": "easily",
+								"span": {
+									"offset": 343,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,129,272,155,272,155,281,129,281)"
+							},
+							{
+								"content": "For",
+								"span": {
+									"offset": 351,
+									"length": 3
+								},
+								"confidence": 0.998,
+								"source": "D(1,55,394,72,394,72,407,55,406)"
+							},
+							{
+								"content": "assistance,",
+								"span": {
+									"offset": 355,
+									"length": 11
+								},
+								"confidence": 0.992,
+								"source": "D(1,75,394,128,394,128,407,75,407)"
+							},
+							{
+								"content": "WhatsApp",
+								"span": {
+									"offset": 367,
+									"length": 8
+								},
+								"confidence": 0.996,
+								"source": "D(1,131,394,179,394,179,407,131,407)"
+							},
+							{
+								"content": "us",
+								"span": {
+									"offset": 376,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,182,394,193,394,193,407,182,407)"
+							},
+							{
+								"content": "at",
+								"span": {
+									"offset": 379,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,196,394,207,394,207,407,196,407)"
+							},
+							{
+								"content": "+6",
+								"span": {
+									"offset": 382,
+									"length": 2
+								},
+								"confidence": 0.979,
+								"source": "D(1,56,408,68,408,68,420,56,420)"
+							},
+							{
+								"content": "012",
+								"span": {
+									"offset": 385,
+									"length": 3
+								},
+								"confidence": 0.994,
+								"source": "D(1,71,408,88,408,88,420,71,420)"
+							},
+							{
+								"content": "345",
+								"span": {
+									"offset": 389,
+									"length": 3
+								},
+								"confidence": 0.995,
+								"source": "D(1,92,408,110,408,110,420,92,420)"
+							},
+							{
+								"content": "1123",
+								"span": {
+									"offset": 393,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,113,408,134,408,134,420,113,420)"
+							},
+							{
+								"content": "or",
+								"span": {
+									"offset": 398,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,137,408,147,408,147,420,137,420)"
+							},
+							{
+								"content": "call",
+								"span": {
+									"offset": 401,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,151,408,167,408,167,420,151,420)"
+							},
+							{
+								"content": "us",
+								"span": {
+									"offset": 406,
+									"length": 2
+								},
+								"confidence": 0.992,
+								"source": "D(1,170,408,181,408,181,420,170,420)"
+							},
+							{
+								"content": "at",
+								"span": {
+									"offset": 409,
+									"length": 2
+								},
+								"confidence": 0.992,
+								"source": "D(1,184,408,193,408,193,420,185,420)"
+							},
+							{
+								"content": "123.",
+								"span": {
+									"offset": 412,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,197,408,217,408,217,420,197,420)"
+							},
+							{
+								"content": "Untuk",
+								"span": {
+									"offset": 417,
+									"length": 5
+								},
+								"confidence": 0.996,
+								"source": "D(1,55,420,83,420,83,433,56,432)"
+							},
+							{
+								"content": "bantuan,",
+								"span": {
+									"offset": 423,
+									"length": 8
+								},
+								"confidence": 0.994,
+								"source": "D(1,86,420,124,420,124,433,86,433)"
+							},
+							{
+								"content": "hubungi",
+								"span": {
+									"offset": 432,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,126,420,164,420,164,433,126,433)"
+							},
+							{
+								"content": "kami",
+								"span": {
+									"offset": 440,
+									"length": 4
+								},
+								"confidence": 0.991,
+								"source": "D(1,167,420,188,420,188,433,167,433)"
+							},
+							{
+								"content": "melalui",
+								"span": {
+									"offset": 445,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,192,420,226,420,226,432,192,433)"
+							},
+							{
+								"content": "Whatsapp",
+								"span": {
+									"offset": 453,
+									"length": 8
+								},
+								"confidence": 0.995,
+								"source": "D(1,55,434,101,434,101,447,55,447)"
+							},
+							{
+								"content": "di",
+								"span": {
+									"offset": 462,
+									"length": 2
+								},
+								"confidence": 0.992,
+								"source": "D(1,103,434,111,434,111,447,103,447)"
+							},
+							{
+								"content": "+60",
+								"span": {
+									"offset": 465,
+									"length": 3
+								},
+								"confidence": 0.997,
+								"source": "D(1,115,434,133,434,133,447,115,447)"
+							},
+							{
+								"content": "12",
+								"span": {
+									"offset": 469,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,136,434,146,434,146,446,136,447)"
+							},
+							{
+								"content": "345",
+								"span": {
+									"offset": 472,
+									"length": 3
+								},
+								"confidence": 0.997,
+								"source": "D(1,150,434,168,433,168,446,150,446)"
+							},
+							{
+								"content": "1123",
+								"span": {
+									"offset": 476,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,171,433,192,433,192,446,171,446)"
+							},
+							{
+								"content": "atau",
+								"span": {
+									"offset": 481,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,55,447,75,448,75,460,55,460)"
+							},
+							{
+								"content": "membuat",
+								"span": {
+									"offset": 486,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,79,448,121,448,121,460,79,460)"
+							},
+							{
+								"content": "panggilan",
+								"span": {
+									"offset": 494,
+									"length": 9
+								},
+								"confidence": 0.992,
+								"source": "D(1,124,448,168,447,168,460,124,460)"
+							},
+							{
+								"content": "ke",
+								"span": {
+									"offset": 504,
+									"length": 2
+								},
+								"confidence": 0.992,
+								"source": "D(1,171,447,181,447,181,460,171,460)"
+							},
+							{
+								"content": "123.",
+								"span": {
+									"offset": 507,
+									"length": 4
+								},
+								"confidence": 0.988,
+								"source": "D(1,184,447,204,447,204,460,184,460)"
+							},
+							{
+								"content": "Statement",
+								"span": {
+									"offset": 513,
+									"length": 9
+								},
+								"confidence": 0.974,
+								"source": "D(1,314,162,351,161,351,172,314,172)"
+							},
+							{
+								"content": "Date",
+								"span": {
+									"offset": 523,
+									"length": 4
+								},
+								"confidence": 0.987,
+								"source": "D(1,353,161,370,162,370,172,353,172)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 528,
+									"length": 1
+								},
+								"confidence": 0.977,
+								"source": "D(1,372,162,376,162,376,172,372,172)"
+							},
+							{
+								"content": "Tarikh",
+								"span": {
+									"offset": 530,
+									"length": 6
+								},
+								"confidence": 0.734,
+								"source": "D(1,379,162,400,161,400,172,379,172)"
+							},
+							{
+								"content": "Penyata",
+								"span": {
+									"offset": 537,
+									"length": 7
+								},
+								"confidence": 0.815,
+								"source": "D(1,402,161,431,162,431,173,402,172)"
+							},
+							{
+								"content": "14/03/2026",
+								"span": {
+									"offset": 545,
+									"length": 10
+								},
+								"confidence": 0.995,
+								"source": "D(1,315,173,376,173,376,185,315,185)"
+							},
+							{
+								"content": "Billing",
+								"span": {
+									"offset": 556,
+									"length": 7
+								},
+								"confidence": 0.852,
+								"source": "D(1,314,187,336,187,336,198,314,198)"
+							},
+							{
+								"content": "Period",
+								"span": {
+									"offset": 564,
+									"length": 6
+								},
+								"confidence": 0.984,
+								"source": "D(1,338,187,362,187,362,198,338,198)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 571,
+									"length": 1
+								},
+								"confidence": 0.973,
+								"source": "D(1,365,187,369,187,369,198,365,198)"
+							},
+							{
+								"content": "Tempoh",
+								"span": {
+									"offset": 573,
+									"length": 6
+								},
+								"confidence": 0.92,
+								"source": "D(1,371,187,398,187,398,198,371,198)"
+							},
+							{
+								"content": "Bil",
+								"span": {
+									"offset": 580,
+									"length": 3
+								},
+								"confidence": 0.572,
+								"source": "D(1,400,187,411,187,411,198,400,198)"
+							},
+							{
+								"content": "14/02/2026",
+								"span": {
+									"offset": 584,
+									"length": 10
+								},
+								"confidence": 0.993,
+								"source": "D(1,315,201,375,201,375,213,315,213)"
+							},
+							{
+								"content": "-",
+								"span": {
+									"offset": 595,
+									"length": 1
+								},
+								"confidence": 0.991,
+								"source": "D(1,377,201,382,201,382,213,377,213)"
+							},
+							{
+								"content": "13/03/2026",
+								"span": {
+									"offset": 597,
+									"length": 10
+								},
+								"confidence": 0.992,
+								"source": "D(1,386,201,446,201,446,213,386,213)"
+							},
+							{
+								"content": "Bill",
+								"span": {
+									"offset": 608,
+									"length": 4
+								},
+								"confidence": 0.834,
+								"source": "D(1,314,217,326,217,326,227,314,227)"
+							},
+							{
+								"content": "Reference",
+								"span": {
+									"offset": 613,
+									"length": 9
+								},
+								"confidence": 0.992,
+								"source": "D(1,328,217,365,217,365,227,328,227)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 623,
+									"length": 1
+								},
+								"confidence": 0.992,
+								"source": "D(1,367,217,370,217,370,227,367,227)"
+							},
+							{
+								"content": "No.",
+								"span": {
+									"offset": 625,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,372,217,384,217,384,227,372,227)"
+							},
+							{
+								"content": "Rujukan",
+								"span": {
+									"offset": 629,
+									"length": 7
+								},
+								"confidence": 0.897,
+								"source": "D(1,386,217,416,217,416,227,386,227)"
+							},
+							{
+								"content": "1601506579",
+								"span": {
+									"offset": 637,
+									"length": 10
+								},
+								"confidence": 0.992,
+								"source": "D(1,314,227,379,227,379,239,314,239)"
+							},
+							{
+								"content": "Total",
+								"span": {
+									"offset": 649,
+									"length": 5
+								},
+								"confidence": 0.993,
+								"source": "D(1,555,186,581,186,581,199,555,199)"
+							},
+							{
+								"content": "Payable(RM)",
+								"span": {
+									"offset": 655,
+									"length": 11
+								},
+								"confidence": 0.978,
+								"source": "D(1,585,186,650,186,650,199,585,199)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 667,
+									"length": 1
+								},
+								"confidence": 0.995,
+								"source": "D(1,653,186,660,186,660,199,653,199)"
+							},
+							{
+								"content": "Jumlah",
+								"span": {
+									"offset": 669,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,524,198,562,199,562,211,524,211)"
+							},
+							{
+								"content": "Perlu",
+								"span": {
+									"offset": 676,
+									"length": 5
+								},
+								"confidence": 0.88,
+								"source": "D(1,564,198,591,198,591,211,564,211)"
+							},
+							{
+								"content": "Dibayar",
+								"span": {
+									"offset": 682,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,594,198,633,198,633,211,594,211)"
+							},
+							{
+								"content": "(RM)",
+								"span": {
+									"offset": 690,
+									"length": 4
+								},
+								"confidence": 0.963,
+								"source": "D(1,636,198,661,198,661,211,636,211)"
+							},
+							{
+								"content": "(4.90)",
+								"span": {
+									"offset": 696,
+									"length": 6
+								},
+								"confidence": 0.996,
+								"source": "D(1,575,212,658,212,658,244,576,244)"
+							},
+							{
+								"content": "Overdue",
+								"span": {
+									"offset": 734,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,315,267,376,267,376,286,315,285)"
+							},
+							{
+								"content": "Amount",
+								"span": {
+									"offset": 742,
+									"length": 6
+								},
+								"confidence": 0.995,
+								"source": "D(1,381,267,438,267,438,286,381,286)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 749,
+									"length": 1
+								},
+								"confidence": 0.973,
+								"source": "D(1,442,267,450,267,450,286,442,286)"
+							},
+							{
+								"content": "Caj",
+								"span": {
+									"offset": 751,
+									"length": 3
+								},
+								"confidence": 0.997,
+								"source": "D(1,455,267,478,267,478,286,455,286)"
+							},
+							{
+								"content": "Tertunggak",
+								"span": {
+									"offset": 755,
+									"length": 10
+								},
+								"confidence": 0.995,
+								"source": "D(1,483,267,562,268,562,287,482,286)"
+							},
+							{
+								"content": "(74.10)",
+								"span": {
+									"offset": 766,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,602,267,658,267,658,285,602,285)"
+							},
+							{
+								"content": "Previous",
+								"span": {
+									"offset": 794,
+									"length": 8
+								},
+								"confidence": 0.992,
+								"source": "D(1,319,286,365,287,365,301,319,301)"
+							},
+							{
+								"content": "Balance",
+								"span": {
+									"offset": 803,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,368,287,408,287,408,301,368,301)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 811,
+									"length": 1
+								},
+								"confidence": 0.995,
+								"source": "D(1,411,287,417,287,417,301,411,301)"
+							},
+							{
+								"content": "Baki",
+								"span": {
+									"offset": 813,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,420,287,442,287,442,301,420,301)"
+							},
+							{
+								"content": "Terdahulu",
+								"span": {
+									"offset": 818,
+									"length": 9
+								},
+								"confidence": 0.977,
+								"source": "D(1,445,287,495,287,495,301,445,301)"
+							},
+							{
+								"content": "75.90",
+								"span": {
+									"offset": 837,
+									"length": 5
+								},
+								"confidence": 0.994,
+								"source": "D(1,626,287,658,287,658,300,626,299)"
+							},
+							{
+								"content": "Payment",
+								"span": {
+									"offset": 863,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,319,307,364,308,364,323,319,323)"
+							},
+							{
+								"content": "Received",
+								"span": {
+									"offset": 871,
+									"length": 8
+								},
+								"confidence": 0.994,
+								"source": "D(1,368,308,414,308,414,323,368,323)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 880,
+									"length": 1
+								},
+								"confidence": 0.993,
+								"source": "D(1,417,308,423,308,423,323,417,323)"
+							},
+							{
+								"content": "Bayaran",
+								"span": {
+									"offset": 882,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,426,308,467,308,467,323,426,323)"
+							},
+							{
+								"content": "Diterima",
+								"span": {
+									"offset": 890,
+									"length": 8
+								},
+								"confidence": 0.993,
+								"source": "D(1,470,308,514,308,514,322,470,323)"
+							},
+							{
+								"content": "(150.00)",
+								"span": {
+									"offset": 908,
+									"length": 8
+								},
+								"confidence": 0.994,
+								"source": "D(1,610,307,658,307,658,323,610,322)"
+							},
+							{
+								"content": "Adjustment",
+								"span": {
+									"offset": 937,
+									"length": 10
+								},
+								"confidence": 0.993,
+								"source": "D(1,319,329,377,329,377,343,319,343)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 948,
+									"length": 1
+								},
+								"confidence": 0.996,
+								"source": "D(1,380,329,386,329,386,343,380,343)"
+							},
+							{
+								"content": "Pelarasan",
+								"span": {
+									"offset": 950,
+									"length": 9
+								},
+								"confidence": 0.992,
+								"source": "D(1,389,329,439,329,439,343,389,343)"
+							},
+							{
+								"content": "0.00",
+								"span": {
+									"offset": 969,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,632,329,658,329,658,341,632,341)"
+							},
+							{
+								"content": "Current",
+								"span": {
+									"offset": 994,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,314,351,369,351,369,370,314,370)"
+							},
+							{
+								"content": "Charges",
+								"span": {
+									"offset": 1002,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,375,351,434,351,434,370,375,370)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 1010,
+									"length": 1
+								},
+								"confidence": 0.991,
+								"source": "D(1,439,351,447,351,447,370,439,370)"
+							},
+							{
+								"content": "Caj",
+								"span": {
+									"offset": 1012,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,452,351,475,352,475,370,452,370)"
+							},
+							{
+								"content": "Semasa",
+								"span": {
+									"offset": 1016,
+									"length": 6
+								},
+								"confidence": 0.996,
+								"source": "D(1,478,352,535,352,535,370,478,370)"
+							},
+							{
+								"content": "69.20",
+								"span": {
+									"offset": 1032,
+									"length": 5
+								},
+								"confidence": 0.998,
+								"source": "D(1,612,352,658,352,658,368,612,368)"
+							},
+							{
+								"content": "Payment",
+								"span": {
+									"offset": 1060,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,314,374,358,374,358,390,314,390)"
+							},
+							{
+								"content": "Last",
+								"span": {
+									"offset": 1068,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,361,374,385,374,385,390,361,390)"
+							},
+							{
+								"content": "Date",
+								"span": {
+									"offset": 1073,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,389,374,412,374,412,390,389,390)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 1078,
+									"length": 1
+								},
+								"confidence": 0.992,
+								"source": "D(1,415,374,421,374,421,390,415,390)"
+							},
+							{
+								"content": "Tarikh",
+								"span": {
+									"offset": 1080,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,425,374,456,374,456,390,425,390)"
+							},
+							{
+								"content": "Akhir",
+								"span": {
+									"offset": 1087,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,459,374,487,374,487,390,459,390)"
+							},
+							{
+								"content": "Bayaran",
+								"span": {
+									"offset": 1093,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,490,374,533,374,533,390,490,390)"
+							},
+							{
+								"content": "08/04/2026",
+								"span": {
+									"offset": 1101,
+									"length": 10
+								},
+								"confidence": 0.993,
+								"source": "D(1,538,374,605,374,605,389,538,390)"
+							},
+							{
+								"content": "Pay",
+								"span": {
+									"offset": 1113,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,526,403,542,403,542,413,526,413)"
+							},
+							{
+								"content": "Now",
+								"span": {
+									"offset": 1117,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,544,404,562,404,562,414,544,413)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 1121,
+									"length": 1
+								},
+								"confidence": 0.922,
+								"source": "D(1,564,404,568,404,568,414,564,414)"
+							},
+							{
+								"content": "Untuk",
+								"span": {
+									"offset": 1123,
+									"length": 5
+								},
+								"confidence": 0.593,
+								"source": "D(1,570,404,586,404,586,414,570,414)"
+							},
+							{
+								"content": "Boyer",
+								"span": {
+									"offset": 1129,
+									"length": 5
+								},
+								"confidence": 0.65,
+								"source": "D(1,588,404,604,404,604,414,588,414)"
+							},
+							{
+								"content": "Sekarony",
+								"span": {
+									"offset": 1135,
+									"length": 8
+								},
+								"confidence": 0.631,
+								"source": "D(1,606,404,633,405,633,414,606,414)"
+							},
+							{
+								"content": "Click",
+								"span": {
+									"offset": 1144,
+									"length": 5
+								},
+								"confidence": 0.266,
+								"source": "D(1,526,413,539,413,539,420,526,420)"
+							},
+							{
+								"content": "Here",
+								"span": {
+									"offset": 1150,
+									"length": 4
+								},
+								"confidence": 0.873,
+								"source": "D(1,540,413,553,413,553,420,540,420)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 1155,
+									"length": 1
+								},
+								"confidence": 0.898,
+								"source": "D(1,554,413,557,413,557,420,554,420)"
+							},
+							{
+								"content": "kis",
+								"span": {
+									"offset": 1157,
+									"length": 3
+								},
+								"confidence": 0.112,
+								"source": "D(1,558,413,569,413,569,420,558,420)"
+							},
+							{
+								"content": "Sim",
+								"span": {
+									"offset": 1161,
+									"length": 3
+								},
+								"confidence": 0.549,
+								"source": "D(1,570,413,581,413,581,420,570,420)"
+							},
+							{
+								"content": ">",
+								"span": {
+									"offset": 1165,
+									"length": 2
+								},
+								"confidence": 0.437,
+								"source": "D(1,642,406,651,406,651,418,642,418)"
+							},
+							{
+								"content": "Important",
+								"span": {
+									"offset": 1172,
+									"length": 9
+								},
+								"confidence": 0.984,
+								"source": "D(1,58,483,120,483,120,500,58,500)"
+							},
+							{
+								"content": "Notice",
+								"span": {
+									"offset": 1182,
+									"length": 6
+								},
+								"confidence": 0.993,
+								"source": "D(1,125,483,166,483,166,500,125,500)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 1189,
+									"length": 1
+								},
+								"confidence": 0.989,
+								"source": "D(1,169,483,177,483,177,500,169,500)"
+							},
+							{
+								"content": "Notis",
+								"span": {
+									"offset": 1191,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,181,483,213,483,213,500,180,500)"
+							},
+							{
+								"content": "Penting",
+								"span": {
+									"offset": 1197,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,217,483,267,484,267,500,217,500)"
+							},
+							{
+								"content": "Make",
+								"span": {
+									"offset": 1206,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,54,520,81,520,81,534,54,534)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 1211,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,84,520,108,520,108,535,84,534)"
+							},
+							{
+								"content": "payment",
+								"span": {
+									"offset": 1216,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,111,520,153,520,153,535,111,535)"
+							},
+							{
+								"content": "by",
+								"span": {
+									"offset": 1224,
+									"length": 2
+								},
+								"confidence": 0.997,
+								"source": "D(1,156,520,171,520,170,535,156,535)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 1227,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,174,520,197,520,197,535,174,535)"
+							},
+							{
+								"content": "due",
+								"span": {
+									"offset": 1232,
+									"length": 3
+								},
+								"confidence": 0.996,
+								"source": "D(1,200,520,219,520,219,535,200,535)"
+							},
+							{
+								"content": "date",
+								"span": {
+									"offset": 1236,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,222,520,244,520,244,534,222,535)"
+							},
+							{
+								"content": "for",
+								"span": {
+									"offset": 1241,
+									"length": 3
+								},
+								"confidence": 0.995,
+								"source": "D(1,248,520,262,520,262,534,248,534)"
+							},
+							{
+								"content": "seamless",
+								"span": {
+									"offset": 1245,
+									"length": 8
+								},
+								"confidence": 0.994,
+								"source": "D(1,266,520,313,520,313,534,266,534)"
+							},
+							{
+								"content": "service.",
+								"span": {
+									"offset": 1254,
+									"length": 8
+								},
+								"confidence": 0.992,
+								"source": "D(1,316,520,356,520,356,534,316,534)"
+							},
+							{
+								"content": "Thank",
+								"span": {
+									"offset": 1263,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,360,520,389,520,389,534,360,534)"
+							},
+							{
+								"content": "you",
+								"span": {
+									"offset": 1269,
+									"length": 3
+								},
+								"confidence": 0.989,
+								"source": "D(1,392,520,411,520,411,534,392,534)"
+							},
+							{
+								"content": "for",
+								"span": {
+									"offset": 1273,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,414,520,429,520,429,535,414,534)"
+							},
+							{
+								"content": "keeping",
+								"span": {
+									"offset": 1277,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,432,520,473,520,473,535,432,535)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 1285,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,476,520,500,520,500,535,476,535)"
+							},
+							{
+								"content": "account",
+								"span": {
+									"offset": 1290,
+									"length": 7
+								},
+								"confidence": 0.996,
+								"source": "D(1,503,520,541,520,541,535,503,535)"
+							},
+							{
+								"content": "in",
+								"span": {
+									"offset": 1298,
+									"length": 2
+								},
+								"confidence": 0.997,
+								"source": "D(1,544,520,556,520,556,535,544,535)"
+							},
+							{
+								"content": "good",
+								"span": {
+									"offset": 1301,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,559,520,584,520,584,535,559,535)"
+							},
+							{
+								"content": "standing.",
+								"span": {
+									"offset": 1306,
+									"length": 9
+								},
+								"confidence": 0.993,
+								"source": "D(1,587,520,634,520,634,535,587,535)"
+							},
+							{
+								"content": "From",
+								"span": {
+									"offset": 1316,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,54,533,82,533,82,548,54,547)"
+							},
+							{
+								"content": "1",
+								"span": {
+									"offset": 1321,
+									"length": 1
+								},
+								"confidence": 0.981,
+								"source": "D(1,86,533,90,533,90,548,86,548)"
+							},
+							{
+								"content": "July",
+								"span": {
+									"offset": 1323,
+									"length": 4
+								},
+								"confidence": 0.988,
+								"source": "D(1,93,533,115,533,115,548,94,548)"
+							},
+							{
+								"content": "2025,",
+								"span": {
+									"offset": 1328,
+									"length": 5
+								},
+								"confidence": 0.99,
+								"source": "D(1,119,533,149,533,149,548,119,548)"
+							},
+							{
+								"content": "get",
+								"span": {
+									"offset": 1334,
+									"length": 3
+								},
+								"confidence": 0.993,
+								"source": "D(1,152,533,166,533,166,548,153,548)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 1338,
+									"length": 4
+								},
+								"confidence": 0.987,
+								"source": "D(1,169,533,193,533,193,548,169,548)"
+							},
+							{
+								"content": "LHDN",
+								"span": {
+									"offset": 1343,
+									"length": 4
+								},
+								"confidence": 0.985,
+								"source": "D(1,196,533,228,533,228,548,196,548)"
+							},
+							{
+								"content": "e-Invoice",
+								"span": {
+									"offset": 1348,
+									"length": 9
+								},
+								"confidence": 0.977,
+								"source": "D(1,232,533,279,533,279,548,232,548)"
+							},
+							{
+								"content": "via",
+								"span": {
+									"offset": 1358,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,282,533,297,533,297,548,282,548)"
+							},
+							{
+								"content": "the",
+								"span": {
+									"offset": 1362,
+									"length": 3
+								},
+								"confidence": 0.997,
+								"source": "D(1,300,533,316,533,316,548,300,548)"
+							},
+							{
+								"content": "Hotlink",
+								"span": {
+									"offset": 1366,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,320,533,355,533,355,548,320,548)"
+							},
+							{
+								"content": "App",
+								"span": {
+									"offset": 1374,
+									"length": 3
+								},
+								"confidence": 0.993,
+								"source": "D(1,358,533,379,533,379,548,358,548)"
+							},
+							{
+								"content": "or",
+								"span": {
+									"offset": 1378,
+									"length": 2
+								},
+								"confidence": 0.994,
+								"source": "D(1,382,533,393,533,393,548,382,548)"
+							},
+							{
+								"content": "Hotlink",
+								"span": {
+									"offset": 1381,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,396,533,432,533,432,548,397,548)"
+							},
+							{
+								"content": "Self-serve",
+								"span": {
+									"offset": 1389,
+									"length": 10
+								},
+								"confidence": 0.992,
+								"source": "D(1,435,533,488,533,488,548,435,548)"
+							},
+							{
+								"content": "Portal.",
+								"span": {
+									"offset": 1400,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,492,533,525,533,525,548,492,548)"
+							},
+							{
+								"content": "For",
+								"span": {
+									"offset": 1408,
+									"length": 3
+								},
+								"confidence": 0.993,
+								"source": "D(1,529,533,545,533,545,548,529,548)"
+							},
+							{
+								"content": "more",
+								"span": {
+									"offset": 1412,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,548,533,575,533,575,547,548,548)"
+							},
+							{
+								"content": "info",
+								"span": {
+									"offset": 1417,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,578,533,600,533,600,547,578,547)"
+							},
+							{
+								"content": "&",
+								"span": {
+									"offset": 1422,
+									"length": 1
+								},
+								"confidence": 0.989,
+								"source": "D(1,603,533,611,533,611,547,603,547)"
+							},
+							{
+								"content": "FAQs,",
+								"span": {
+									"offset": 1424,
+									"length": 5
+								},
+								"confidence": 0.916,
+								"source": "D(1,615,533,647,533,647,548,615,547)"
+							},
+							{
+								"content": "visit",
+								"span": {
+									"offset": 1430,
+									"length": 5
+								},
+								"confidence": 0.994,
+								"source": "D(1,54,547,76,547,76,561,54,561)"
+							},
+							{
+								"content": "www.maxis.com.my/einvoice",
+								"span": {
+									"offset": 1436,
+									"length": 25
+								},
+								"confidence": 0.963,
+								"source": "D(1,79,547,232,547,232,562,79,562)"
+							},
+							{
+								"content": "Important",
+								"span": {
+									"offset": 1466,
+									"length": 9
+								},
+								"confidence": 0.986,
+								"source": "D(1,57,595,120,595,120,612,57,612)"
+							},
+							{
+								"content": "Bill",
+								"span": {
+									"offset": 1476,
+									"length": 4
+								},
+								"confidence": 0.995,
+								"source": "D(1,125,595,146,595,146,612,125,612)"
+							},
+							{
+								"content": "Information",
+								"span": {
+									"offset": 1481,
+									"length": 11
+								},
+								"confidence": 0.989,
+								"source": "D(1,150,595,224,595,224,612,150,612)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 1493,
+									"length": 1
+								},
+								"confidence": 0.989,
+								"source": "D(1,227,595,235,595,235,612,227,612)"
+							},
+							{
+								"content": "Informasi",
+								"span": {
+									"offset": 1495,
+									"length": 9
+								},
+								"confidence": 0.992,
+								"source": "D(1,238,595,301,595,301,612,238,612)"
+							},
+							{
+								"content": "Bill",
+								"span": {
+									"offset": 1505,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,304,595,326,595,326,612,304,612)"
+							},
+							{
+								"content": "Penting",
+								"span": {
+									"offset": 1510,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,330,595,380,595,380,613,330,612)"
+							},
+							{
+								"content": "-Your",
+								"span": {
+									"offset": 1519,
+									"length": 5
+								},
+								"confidence": 0.962,
+								"source": "D(1,56,631,84,631,84,645,55,645)"
+							},
+							{
+								"content": "service",
+								"span": {
+									"offset": 1525,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,88,631,122,631,122,646,88,645)"
+							},
+							{
+								"content": "may",
+								"span": {
+									"offset": 1533,
+									"length": 3
+								},
+								"confidence": 0.994,
+								"source": "D(1,125,631,148,631,148,646,125,646)"
+							},
+							{
+								"content": "be",
+								"span": {
+									"offset": 1537,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,151,631,165,631,165,646,151,646)"
+							},
+							{
+								"content": "temporarily",
+								"span": {
+									"offset": 1540,
+									"length": 11
+								},
+								"confidence": 0.992,
+								"source": "D(1,169,631,226,631,225,646,168,646)"
+							},
+							{
+								"content": "interrupted",
+								"span": {
+									"offset": 1552,
+									"length": 11
+								},
+								"confidence": 0.989,
+								"source": "D(1,228,631,285,631,285,646,228,646)"
+							},
+							{
+								"content": "if",
+								"span": {
+									"offset": 1564,
+									"length": 2
+								},
+								"confidence": 0.989,
+								"source": "D(1,288,631,295,631,295,646,288,646)"
+							},
+							{
+								"content": "full",
+								"span": {
+									"offset": 1567,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,298,631,316,631,316,646,298,646)"
+							},
+							{
+								"content": "payment",
+								"span": {
+									"offset": 1572,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,320,631,361,631,361,646,320,646)"
+							},
+							{
+								"content": "is",
+								"span": {
+									"offset": 1580,
+									"length": 2
+								},
+								"confidence": 0.993,
+								"source": "D(1,364,631,375,631,375,646,364,646)"
+							},
+							{
+								"content": "not",
+								"span": {
+									"offset": 1583,
+									"length": 3
+								},
+								"confidence": 0.993,
+								"source": "D(1,379,631,395,631,394,646,379,646)"
+							},
+							{
+								"content": "received",
+								"span": {
+									"offset": 1587,
+									"length": 8
+								},
+								"confidence": 0.992,
+								"source": "D(1,398,631,441,631,441,646,398,646)"
+							},
+							{
+								"content": "by",
+								"span": {
+									"offset": 1596,
+									"length": 2
+								},
+								"confidence": 0.997,
+								"source": "D(1,445,631,457,631,457,646,445,646)"
+							},
+							{
+								"content": "the",
+								"span": {
+									"offset": 1599,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,460,631,477,630,477,646,460,646)"
+							},
+							{
+								"content": "due",
+								"span": {
+									"offset": 1603,
+									"length": 3
+								},
+								"confidence": 0.996,
+								"source": "D(1,480,631,499,631,499,646,480,646)"
+							},
+							{
+								"content": "date.",
+								"span": {
+									"offset": 1607,
+									"length": 5
+								},
+								"confidence": 0.992,
+								"source": "D(1,502,631,526,631,526,646,502,646)"
+							},
+							{
+								"content": "Reconnection",
+								"span": {
+									"offset": 1613,
+									"length": 12
+								},
+								"confidence": 0.992,
+								"source": "D(1,531,631,598,631,598,645,531,646)"
+							},
+							{
+								"content": "fee",
+								"span": {
+									"offset": 1626,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,601,631,619,630,619,645,601,645)"
+							},
+							{
+								"content": "and",
+								"span": {
+									"offset": 1630,
+									"length": 3
+								},
+								"confidence": 0.996,
+								"source": "D(1,622,630,642,630,642,645,622,645)"
+							},
+							{
+								"content": "late",
+								"span": {
+									"offset": 1634,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,54,645,73,645,73,659,54,659)"
+							},
+							{
+								"content": "payment",
+								"span": {
+									"offset": 1639,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,77,645,120,645,120,660,77,660)"
+							},
+							{
+								"content": "charges",
+								"span": {
+									"offset": 1647,
+									"length": 7
+								},
+								"confidence": 0.995,
+								"source": "D(1,123,645,164,645,164,660,123,660)"
+							},
+							{
+								"content": "may",
+								"span": {
+									"offset": 1655,
+									"length": 3
+								},
+								"confidence": 0.998,
+								"source": "D(1,167,645,189,645,189,660,167,660)"
+							},
+							{
+								"content": "apply.",
+								"span": {
+									"offset": 1659,
+									"length": 6
+								},
+								"confidence": 0.993,
+								"source": "D(1,192,645,222,645,222,660,192,660)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 1666,
+									"length": 1
+								},
+								"confidence": 0.977,
+								"source": "D(1,225,645,231,645,231,660,225,660)"
+							},
+							{
+								"content": "Perkhidmatan",
+								"span": {
+									"offset": 1668,
+									"length": 12
+								},
+								"confidence": 0.994,
+								"source": "D(1,234,645,305,645,305,660,235,660)"
+							},
+							{
+								"content": "anda",
+								"span": {
+									"offset": 1681,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,308,645,331,645,331,660,308,660)"
+							},
+							{
+								"content": "mungkin",
+								"span": {
+									"offset": 1686,
+									"length": 7
+								},
+								"confidence": 0.996,
+								"source": "D(1,334,645,379,645,379,660,334,660)"
+							},
+							{
+								"content": "terganggu",
+								"span": {
+									"offset": 1694,
+									"length": 9
+								},
+								"confidence": 0.994,
+								"source": "D(1,382,645,434,645,434,660,382,660)"
+							},
+							{
+								"content": "buat",
+								"span": {
+									"offset": 1704,
+									"length": 4
+								},
+								"confidence": 0.99,
+								"source": "D(1,437,645,459,645,459,660,437,660)"
+							},
+							{
+								"content": "sementara",
+								"span": {
+									"offset": 1709,
+									"length": 9
+								},
+								"confidence": 0.993,
+								"source": "D(1,463,645,516,645,516,660,463,660)"
+							},
+							{
+								"content": "waktu",
+								"span": {
+									"offset": 1719,
+									"length": 5
+								},
+								"confidence": 0.996,
+								"source": "D(1,519,645,550,645,550,660,519,660)"
+							},
+							{
+								"content": "sekiranya",
+								"span": {
+									"offset": 1725,
+									"length": 9
+								},
+								"confidence": 0.993,
+								"source": "D(1,554,645,602,645,602,660,554,660)"
+							},
+							{
+								"content": "bayaran",
+								"span": {
+									"offset": 1735,
+									"length": 7
+								},
+								"confidence": 0.997,
+								"source": "D(1,606,645,648,646,648,660,606,660)"
+							},
+							{
+								"content": "penuh",
+								"span": {
+									"offset": 1743,
+									"length": 5
+								},
+								"confidence": 0.994,
+								"source": "D(1,54,660,86,659,86,673,54,673)"
+							},
+							{
+								"content": "tidak",
+								"span": {
+									"offset": 1749,
+									"length": 5
+								},
+								"confidence": 0.996,
+								"source": "D(1,89,659,113,659,113,673,89,673)"
+							},
+							{
+								"content": "diterima",
+								"span": {
+									"offset": 1755,
+									"length": 8
+								},
+								"confidence": 0.995,
+								"source": "D(1,117,659,158,659,158,673,117,673)"
+							},
+							{
+								"content": "sebelum",
+								"span": {
+									"offset": 1764,
+									"length": 7
+								},
+								"confidence": 0.998,
+								"source": "D(1,162,659,204,659,204,673,162,673)"
+							},
+							{
+								"content": "tarikh",
+								"span": {
+									"offset": 1772,
+									"length": 6
+								},
+								"confidence": 0.996,
+								"source": "D(1,208,659,237,659,237,673,208,673)"
+							},
+							{
+								"content": "akhir",
+								"span": {
+									"offset": 1779,
+									"length": 5
+								},
+								"confidence": 0.997,
+								"source": "D(1,240,659,265,659,265,673,240,673)"
+							},
+							{
+								"content": "bil.",
+								"span": {
+									"offset": 1785,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,269,659,283,659,283,673,269,673)"
+							},
+							{
+								"content": "Caj",
+								"span": {
+									"offset": 1790,
+									"length": 3
+								},
+								"confidence": 0.995,
+								"source": "D(1,287,659,303,659,303,673,287,673)"
+							},
+							{
+								"content": "penyambungan",
+								"span": {
+									"offset": 1794,
+									"length": 12
+								},
+								"confidence": 0.995,
+								"source": "D(1,307,659,384,659,384,673,307,673)"
+							},
+							{
+								"content": "semula",
+								"span": {
+									"offset": 1807,
+									"length": 6
+								},
+								"confidence": 0.997,
+								"source": "D(1,387,659,423,659,423,673,387,673)"
+							},
+							{
+								"content": "dan",
+								"span": {
+									"offset": 1814,
+									"length": 3
+								},
+								"confidence": 0.998,
+								"source": "D(1,427,659,445,659,445,673,427,673)"
+							},
+							{
+								"content": "caj",
+								"span": {
+									"offset": 1818,
+									"length": 3
+								},
+								"confidence": 0.997,
+								"source": "D(1,448,659,463,659,463,673,448,673)"
+							},
+							{
+								"content": "bayaran",
+								"span": {
+									"offset": 1822,
+									"length": 7
+								},
+								"confidence": 0.998,
+								"source": "D(1,467,659,507,659,507,673,467,673)"
+							},
+							{
+								"content": "lewat",
+								"span": {
+									"offset": 1830,
+									"length": 5
+								},
+								"confidence": 0.997,
+								"source": "D(1,511,659,538,659,538,673,511,673)"
+							},
+							{
+								"content": "akan",
+								"span": {
+									"offset": 1836,
+									"length": 4
+								},
+								"confidence": 0.991,
+								"source": "D(1,542,659,565,659,565,673,542,673)"
+							},
+							{
+								"content": "dikenakan.",
+								"span": {
+									"offset": 1841,
+									"length": 10
+								},
+								"confidence": 0.994,
+								"source": "D(1,569,659,624,659,624,674,569,673)"
+							},
+							{
+								"content": "-For",
+								"span": {
+									"offset": 1852,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,55,672,77,672,77,686,55,686)"
+							},
+							{
+								"content": "refund",
+								"span": {
+									"offset": 1857,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,81,672,114,672,114,686,81,686)"
+							},
+							{
+								"content": "of",
+								"span": {
+									"offset": 1864,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,118,672,128,672,128,686,118,686)"
+							},
+							{
+								"content": "deposit",
+								"span": {
+									"offset": 1867,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,131,672,168,672,168,686,131,686)"
+							},
+							{
+								"content": "or",
+								"span": {
+									"offset": 1875,
+									"length": 2
+								},
+								"confidence": 0.993,
+								"source": "D(1,171,672,182,672,182,686,171,686)"
+							},
+							{
+								"content": "balance",
+								"span": {
+									"offset": 1878,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,186,672,223,672,223,686,186,686)"
+							},
+							{
+								"content": "in",
+								"span": {
+									"offset": 1886,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,225,672,237,672,237,686,225,686)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 1889,
+									"length": 4
+								},
+								"confidence": 0.995,
+								"source": "D(1,240,672,264,672,264,686,240,686)"
+							},
+							{
+								"content": "terminated",
+								"span": {
+									"offset": 1894,
+									"length": 10
+								},
+								"confidence": 0.992,
+								"source": "D(1,267,672,322,673,322,686,267,686)"
+							},
+							{
+								"content": "account",
+								"span": {
+									"offset": 1905,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,326,673,365,672,365,686,326,686)"
+							},
+							{
+								"content": "or",
+								"span": {
+									"offset": 1913,
+									"length": 2
+								},
+								"confidence": 0.993,
+								"source": "D(1,369,672,380,672,380,686,369,686)"
+							},
+							{
+								"content": "service,",
+								"span": {
+									"offset": 1916,
+									"length": 8
+								},
+								"confidence": 0.992,
+								"source": "D(1,384,672,423,673,423,686,384,686)"
+							},
+							{
+								"content": "please",
+								"span": {
+									"offset": 1925,
+									"length": 6
+								},
+								"confidence": 0.993,
+								"source": "D(1,426,673,459,673,459,686,426,686)"
+							},
+							{
+								"content": "submit",
+								"span": {
+									"offset": 1932,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,462,673,496,673,496,686,462,686)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 1939,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,500,673,523,673,523,686,500,686)"
+							},
+							{
+								"content": "request",
+								"span": {
+									"offset": 1944,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,527,673,565,673,565,686,527,686)"
+							},
+							{
+								"content": "at",
+								"span": {
+									"offset": 1952,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,568,673,580,673,580,686,568,686)"
+							},
+							{
+								"content": "www.maxis.com.my/refund",
+								"span": {
+									"offset": 1955,
+									"length": 23
+								},
+								"confidence": 0.992,
+								"source": "D(1,54,687,197,686,197,700,54,700)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 1979,
+									"length": 1
+								},
+								"confidence": 0.977,
+								"source": "D(1,200,686,206,686,206,700,200,700)"
+							},
+							{
+								"content": "Untuk",
+								"span": {
+									"offset": 1981,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,209,686,239,686,239,700,209,700)"
+							},
+							{
+								"content": "bayaran",
+								"span": {
+									"offset": 1987,
+									"length": 7
+								},
+								"confidence": 0.996,
+								"source": "D(1,243,686,283,686,283,701,243,701)"
+							},
+							{
+								"content": "balik",
+								"span": {
+									"offset": 1995,
+									"length": 5
+								},
+								"confidence": 0.996,
+								"source": "D(1,287,686,310,686,310,700,287,700)"
+							},
+							{
+								"content": "deposit",
+								"span": {
+									"offset": 2001,
+									"length": 7
+								},
+								"confidence": 0.997,
+								"source": "D(1,313,686,350,686,350,700,313,700)"
+							},
+							{
+								"content": "atau",
+								"span": {
+									"offset": 2009,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,353,686,375,686,375,700,354,700)"
+							},
+							{
+								"content": "baki",
+								"span": {
+									"offset": 2014,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,379,686,399,686,399,700,379,700)"
+							},
+							{
+								"content": "dalam",
+								"span": {
+									"offset": 2019,
+									"length": 5
+								},
+								"confidence": 0.996,
+								"source": "D(1,403,686,433,686,433,700,403,700)"
+							},
+							{
+								"content": "akaun",
+								"span": {
+									"offset": 2025,
+									"length": 5
+								},
+								"confidence": 0.997,
+								"source": "D(1,436,686,466,686,466,700,436,700)"
+							},
+							{
+								"content": "atau",
+								"span": {
+									"offset": 2031,
+									"length": 4
+								},
+								"confidence": 0.991,
+								"source": "D(1,470,686,491,686,491,700,470,700)"
+							},
+							{
+								"content": "sila",
+								"span": {
+									"offset": 2036,
+									"length": 4
+								},
+								"confidence": 0.99,
+								"source": "D(1,495,686,511,686,511,700,495,700)"
+							},
+							{
+								"content": "hantar",
+								"span": {
+									"offset": 2041,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,514,686,548,686,548,700,513,700)"
+							},
+							{
+								"content": "permintaan",
+								"span": {
+									"offset": 2048,
+									"length": 10
+								},
+								"confidence": 0.994,
+								"source": "D(1,552,686,609,686,609,700,552,700)"
+							},
+							{
+								"content": "anda",
+								"span": {
+									"offset": 2059,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,612,686,637,686,637,700,612,700)"
+							},
+							{
+								"content": "di",
+								"span": {
+									"offset": 2064,
+									"length": 2
+								},
+								"confidence": 0.998,
+								"source": "D(1,640,686,651,686,651,700,640,700)"
+							},
+							{
+								"content": "www.maxis.com.my/refund",
+								"span": {
+									"offset": 2067,
+									"length": 23
+								},
+								"confidence": 0.988,
+								"source": "D(1,53,701,199,700,199,714,54,714)"
+							},
+							{
+								"content": "1",
+								"span": {
+									"offset": 2092,
+									"length": 1
+								},
+								"confidence": 0.556,
+								"source": "D(1,79,803,86,804,87,814,79,814)"
+							},
+							{
+								"content": "SI",
+								"span": {
+									"offset": 2095,
+									"length": 2
+								},
+								"confidence": 0.79,
+								"source": "D(1,114,879,126,879,126,887,114,888)"
+							},
+							{
+								"content": "Total",
+								"span": {
+									"offset": 2110,
+									"length": 5
+								},
+								"confidence": 0.993,
+								"source": "D(1,558,781,581,781,581,793,558,793)"
+							},
+							{
+								"content": "Payable(RM)",
+								"span": {
+									"offset": 2116,
+									"length": 11
+								},
+								"confidence": 0.992,
+								"source": "D(1,584,781,643,780,643,793,584,793)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 2128,
+									"length": 1
+								},
+								"confidence": 0.995,
+								"source": "D(1,646,780,652,780,652,793,646,793)"
+							},
+							{
+								"content": "Jumiah",
+								"span": {
+									"offset": 2130,
+									"length": 6
+								},
+								"confidence": 0.844,
+								"source": "D(1,529,795,563,795,563,807,529,807)"
+							},
+							{
+								"content": "Perlu",
+								"span": {
+									"offset": 2137,
+									"length": 5
+								},
+								"confidence": 0.801,
+								"source": "D(1,566,795,590,795,590,807,566,807)"
+							},
+							{
+								"content": "Dibayar",
+								"span": {
+									"offset": 2143,
+									"length": 7
+								},
+								"confidence": 0.975,
+								"source": "D(1,592,795,627,795,627,807,592,807)"
+							},
+							{
+								"content": "(RM)",
+								"span": {
+									"offset": 2151,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,630,795,653,795,653,807,630,807)"
+							},
+							{
+								"content": "(4.90)",
+								"span": {
+									"offset": 2156,
+									"length": 6
+								},
+								"confidence": 0.996,
+								"source": "D(1,569,808,651,808,651,839,569,839)"
+							},
+							{
+								"content": "Current",
+								"span": {
+									"offset": 2164,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,524,839,560,839,560,852,524,851)"
+							},
+							{
+								"content": "Charges",
+								"span": {
+									"offset": 2172,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,563,839,601,839,601,852,563,852)"
+							},
+							{
+								"content": "due",
+								"span": {
+									"offset": 2180,
+									"length": 3
+								},
+								"confidence": 0.995,
+								"source": "D(1,604,839,621,839,621,852,604,852)"
+							},
+							{
+								"content": "date",
+								"span": {
+									"offset": 2184,
+									"length": 4
+								},
+								"confidence": 0.985,
+								"source": "D(1,623,839,643,839,643,852,623,852)"
+							},
+							{
+								"content": "/",
+								"span": {
+									"offset": 2189,
+									"length": 1
+								},
+								"confidence": 0.996,
+								"source": "D(1,646,839,652,839,652,852,646,852)"
+							},
+							{
+								"content": "Tarikh",
+								"span": {
+									"offset": 2191,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,440,852,469,852,469,865,440,865)"
+							},
+							{
+								"content": "Akhir",
+								"span": {
+									"offset": 2198,
+									"length": 5
+								},
+								"confidence": 0.992,
+								"source": "D(1,471,852,496,852,496,865,471,865)"
+							},
+							{
+								"content": "Bayaran",
+								"span": {
+									"offset": 2204,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,498,852,536,852,536,865,498,865)"
+							},
+							{
+								"content": "Caj",
+								"span": {
+									"offset": 2212,
+									"length": 3
+								},
+								"confidence": 0.991,
+								"source": "D(1,538,852,553,852,553,865,538,865)"
+							},
+							{
+								"content": "Semasa",
+								"span": {
+									"offset": 2216,
+									"length": 6
+								},
+								"confidence": 0.951,
+								"source": "D(1,555,852,588,852,588,865,555,865)"
+							},
+							{
+								"content": "08/04/2026",
+								"span": {
+									"offset": 2223,
+									"length": 10
+								},
+								"confidence": 0.995,
+								"source": "D(1,591,852,652,852,652,865,591,865)"
+							},
+							{
+								"content": "Jom",
+								"span": {
+									"offset": 2235,
+									"length": 3
+								},
+								"confidence": 0.963,
+								"source": "D(1,405,876,432,876,432,886,405,886)"
+							},
+							{
+								"content": "PAY",
+								"span": {
+									"offset": 2239,
+									"length": 3
+								},
+								"confidence": 0.996,
+								"source": "D(1,408,886,432,886,432,898,408,897)"
+							},
+							{
+								"content": "Biller",
+								"span": {
+									"offset": 2244,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,459,874,488,874,488,885,459,885)"
+							},
+							{
+								"content": "C",
+								"span": {
+									"offset": 2251,
+									"length": 1
+								},
+								"confidence": 0.992,
+								"source": "D(1,491,874,502,873,502,886,492,885)"
+							},
+							{
+								"content": "Ref-1(Account",
+								"span": {
+									"offset": 2253,
+									"length": 13
+								},
+								"confidence": 0.914,
+								"source": "D(1,459,889,535,889,536,901,459,902)"
+							},
+							{
+								"content": "M-",
+								"span": {
+									"offset": 2267,
+									"length": 2
+								},
+								"confidence": 0.423,
+								"source": "D(1,540,889,553,889,553,901,540,901)"
+							},
+							{
+								"content": "JomPAY",
+								"span": {
+									"offset": 2283,
+									"length": 6
+								},
+								"confidence": 0.995,
+								"source": "D(1,401,916,440,916,440,927,401,927)"
+							},
+							{
+								"content": "online",
+								"span": {
+									"offset": 2290,
+									"length": 6
+								},
+								"confidence": 0.988,
+								"source": "D(1,443,916,468,916,468,927,443,927)"
+							},
+							{
+								"content": "at",
+								"span": {
+									"offset": 2297,
+									"length": 2
+								},
+								"confidence": 0.993,
+								"source": "D(1,472,916,480,916,480,927,472,927)"
+							},
+							{
+								"content": "Internet",
+								"span": {
+									"offset": 2300,
+									"length": 8
+								},
+								"confidence": 0.973,
+								"source": "D(1,483,916,516,916,516,927,483,927)"
+							},
+							{
+								"content": "and",
+								"span": {
+									"offset": 2309,
+									"length": 3
+								},
+								"confidence": 0.994,
+								"source": "D(1,519,916,535,916,535,927,519,927)"
+							},
+							{
+								"content": "Mobile",
+								"span": {
+									"offset": 2313,
+									"length": 6
+								},
+								"confidence": 0.993,
+								"source": "D(1,539,916,568,916,568,928,539,927)"
+							},
+							{
+								"content": "Banking",
+								"span": {
+									"offset": 2320,
+									"length": 7
+								},
+								"confidence": 0.941,
+								"source": "D(1,571,916,606,916,606,928,571,928)"
+							},
+							{
+								"content": "with",
+								"span": {
+									"offset": 2328,
+									"length": 4
+								},
+								"confidence": 0.652,
+								"source": "D(1,609,916,626,916,626,928,609,928)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 2333,
+									"length": 4
+								},
+								"confidence": 0.995,
+								"source": "D(1,629,916,650,916,650,928,629,928)"
+							},
+							{
+								"content": "Current,",
+								"span": {
+									"offset": 2338,
+									"length": 8
+								},
+								"confidence": 0.962,
+								"source": "D(1,401,927,436,927,436,938,401,938)"
+							},
+							{
+								"content": "Savings",
+								"span": {
+									"offset": 2347,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,439,927,473,927,473,938,439,938)"
+							},
+							{
+								"content": "or",
+								"span": {
+									"offset": 2355,
+									"length": 2
+								},
+								"confidence": 0.989,
+								"source": "D(1,475,927,484,927,484,938,475,938)"
+							},
+							{
+								"content": "Credit",
+								"span": {
+									"offset": 2358,
+									"length": 6
+								},
+								"confidence": 0.989,
+								"source": "D(1,486,927,512,927,512,938,486,938)"
+							},
+							{
+								"content": "Card",
+								"span": {
+									"offset": 2365,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,514,927,536,927,536,938,514,938)"
+							},
+							{
+								"content": "account",
+								"span": {
+									"offset": 2370,
+									"length": 7
+								},
+								"confidence": 0.992,
+								"source": "D(1,538,927,575,927,575,938,538,938)"
+							},
+							{
+								"content": "Ref-1",
+								"span": {
+									"offset": 2378,
+									"length": 5
+								},
+								"confidence": 0.989,
+								"source": "D(1,401,941,424,941,424,952,401,952)"
+							},
+							{
+								"content": "is",
+								"span": {
+									"offset": 2384,
+									"length": 2
+								},
+								"confidence": 0.993,
+								"source": "D(1,426,941,435,941,436,952,426,952)"
+							},
+							{
+								"content": "the",
+								"span": {
+									"offset": 2387,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,438,941,452,941,452,952,438,952)"
+							},
+							{
+								"content": "Account",
+								"span": {
+									"offset": 2391,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,454,941,488,941,488,952,454,952)"
+							},
+							{
+								"content": "No/No.",
+								"span": {
+									"offset": 2399,
+									"length": 6
+								},
+								"confidence": 0.955,
+								"source": "D(1,491,941,522,941,522,952,491,952)"
+							},
+							{
+								"content": "Akaun",
+								"span": {
+									"offset": 2406,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,525,941,554,941,554,952,525,952)"
+							},
+							{
+								"content": "Page",
+								"span": {
+									"offset": 2430,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,583,982,609,982,609,996,583,996)"
+							},
+							{
+								"content": "1",
+								"span": {
+									"offset": 2435,
+									"length": 1
+								},
+								"confidence": 0.992,
+								"source": "D(1,613,982,616,982,616,996,613,996)"
+							},
+							{
+								"content": "out",
+								"span": {
+									"offset": 2437,
+									"length": 3
+								},
+								"confidence": 0.995,
+								"source": "D(1,620,982,637,982,637,996,620,996)"
+							},
+							{
+								"content": "of",
+								"span": {
+									"offset": 2441,
+									"length": 2
+								},
+								"confidence": 0.995,
+								"source": "D(1,640,982,650,982,650,996,640,996)"
+							},
+							{
+								"content": "3",
+								"span": {
+									"offset": 2444,
+									"length": 1
+								},
+								"confidence": 0.997,
+								"source": "D(1,654,982,662,982,662,995,654,996)"
+							}
+						],
+						"lines": [
+							{
+								"content": "hotlink",
+								"source": "D(1,32,72,94,72,93,90,32,89)",
+								"span": {
+									"offset": 10,
+									"length": 7
+								}
+							},
+							{
+								"content": "Maxis Broadband Sdn Bhd",
+								"source": "D(1,105,30,204,30,204,40,105,40)",
+								"span": {
+									"offset": 48,
+									"length": 23
+								}
+							},
+							{
+								"content": "Registration No. 199201002549 (234053-D)",
+								"source": "D(1,105,40,245,39,245,49,105,50)",
+								"span": {
+									"offset": 72,
+									"length": 40
+								}
+							},
+							{
+								"content": "Level 21, Menara Maxis, Kuala Lumpur City Centre,",
+								"source": "D(1,105,51,289,51,289,62,105,61)",
+								"span": {
+									"offset": 113,
+									"length": 49
+								}
+							},
+							{
+								"content": "Off Jalan Ampang. 50088 Kuala Lumpur.",
+								"source": "D(1,106,62,254,62,254,72,106,72)",
+								"span": {
+									"offset": 163,
+									"length": 37
+								}
+							},
+							{
+								"content": "Service Tax ID : W10-1808-32000489",
+								"source": "D(1,106,72,245,72,245,82,106,82)",
+								"span": {
+									"offset": 201,
+									"length": 34
+								}
+							},
+							{
+								"content": "BIL",
+								"source": "D(1,623,46,659,46,659,61,623,61)",
+								"span": {
+									"offset": 242,
+									"length": 3
+								}
+							},
+							{
+								"content": "BIL",
+								"source": "D(1,647,67,673,67,673,81,647,80)",
+								"span": {
+									"offset": 246,
+									"length": 3
+								}
+							},
+							{
+								"content": "Your Bill Statement / Penyata Bil Anda",
+								"source": "D(1,57,117,310,117,310,134,57,134)",
+								"span": {
+									"offset": 254,
+									"length": 38
+								}
+							},
+							{
+								"content": "D",
+								"source": "D(1,58,151,67,151,67,159,58,159)",
+								"span": {
+									"offset": 294,
+									"length": 1
+								}
+							},
+							{
+								"content": "A",
+								"source": "D(1,55,200,62,200,62,208,55,208)",
+								"span": {
+									"offset": 297,
+									"length": 1
+								}
+							},
+							{
+								"content": "kaun",
+								"source": "D(1,125,201,144,201,144,208,125,208)",
+								"span": {
+									"offset": 300,
+									"length": 4
+								}
+							},
+							{
+								"content": "E",
+								"source": "D(1,57,210,63,210,63,217,57,217)",
+								"span": {
+									"offset": 306,
+									"length": 1
+								}
+							},
+							{
+								"content": "9",
+								"source": "D(1,58,263,62,263,62,272,58,272)",
+								"span": {
+									"offset": 309,
+									"length": 1
+								}
+							},
+							{
+								"content": "here to learn how",
+								"source": "D(1,76,262,160,262,160,271,76,271)",
+								"span": {
+									"offset": 311,
+									"length": 17
+								}
+							},
+							{
+								"content": "pay your bill easily",
+								"source": "D(1,74,272,155,272,155,281,74,281)",
+								"span": {
+									"offset": 329,
+									"length": 20
+								}
+							},
+							{
+								"content": "For assistance, WhatsApp us at",
+								"source": "D(1,55,394,206,394,206,407,55,407)",
+								"span": {
+									"offset": 351,
+									"length": 30
+								}
+							},
+							{
+								"content": "+6 012 345 1123 or call us at 123.",
+								"source": "D(1,56,408,216,408,216,420,56,420)",
+								"span": {
+									"offset": 382,
+									"length": 34
+								}
+							},
+							{
+								"content": "Untuk bantuan, hubungi kami melalui",
+								"source": "D(1,55,420,225,420,225,433,55,432)",
+								"span": {
+									"offset": 417,
+									"length": 35
+								}
+							},
+							{
+								"content": "Whatsapp di +60 12 345 1123",
+								"source": "D(1,55,434,192,433,192,446,55,447)",
+								"span": {
+									"offset": 453,
+									"length": 27
+								}
+							},
+							{
+								"content": "atau membuat panggilan ke 123.",
+								"source": "D(1,55,447,204,447,204,460,55,460)",
+								"span": {
+									"offset": 481,
+									"length": 30
+								}
+							},
+							{
+								"content": "Statement Date / Tarikh Penyata",
+								"source": "D(1,314,161,431,162,431,173,314,172)",
+								"span": {
+									"offset": 513,
+									"length": 31
+								}
+							},
+							{
+								"content": "14/03/2026",
+								"source": "D(1,315,173,376,173,376,185,315,185)",
+								"span": {
+									"offset": 545,
+									"length": 10
+								}
+							},
+							{
+								"content": "Billing Period / Tempoh Bil",
+								"source": "D(1,314,187,411,187,411,198,314,198)",
+								"span": {
+									"offset": 556,
+									"length": 27
+								}
+							},
+							{
+								"content": "14/02/2026 - 13/03/2026",
+								"source": "D(1,315,201,446,201,446,213,315,213)",
+								"span": {
+									"offset": 584,
+									"length": 23
+								}
+							},
+							{
+								"content": "Bill Reference / No. Rujukan",
+								"source": "D(1,314,217,415,217,415,227,314,227)",
+								"span": {
+									"offset": 608,
+									"length": 28
+								}
+							},
+							{
+								"content": "1601506579",
+								"source": "D(1,314,227,379,227,379,239,314,239)",
+								"span": {
+									"offset": 637,
+									"length": 10
+								}
+							},
+							{
+								"content": "Total Payable(RM) /",
+								"source": "D(1,555,186,660,186,660,198,555,199)",
+								"span": {
+									"offset": 649,
+									"length": 19
+								}
+							},
+							{
+								"content": "Jumlah Perlu Dibayar (RM)",
+								"source": "D(1,524,198,660,198,660,211,524,211)",
+								"span": {
+									"offset": 669,
+									"length": 25
+								}
+							},
+							{
+								"content": "(4.90)",
+								"source": "D(1,575,212,658,212,658,244,575,244)",
+								"span": {
+									"offset": 696,
+									"length": 6
+								}
+							},
+							{
+								"content": "Overdue Amount / Caj Tertunggak",
+								"source": "D(1,315,267,562,267,562,286,315,286)",
+								"span": {
+									"offset": 734,
+									"length": 31
+								}
+							},
+							{
+								"content": "(74.10)",
+								"source": "D(1,602,267,658,267,658,285,602,285)",
+								"span": {
+									"offset": 766,
+									"length": 7
+								}
+							},
+							{
+								"content": "Previous Balance / Baki Terdahulu",
+								"source": "D(1,319,286,495,287,495,301,319,301)",
+								"span": {
+									"offset": 794,
+									"length": 33
+								}
+							},
+							{
+								"content": "75.90",
+								"source": "D(1,626,287,658,287,657,299,626,299)",
+								"span": {
+									"offset": 837,
+									"length": 5
+								}
+							},
+							{
+								"content": "Payment Received / Bayaran Diterima",
+								"source": "D(1,319,307,513,307,513,322,319,323)",
+								"span": {
+									"offset": 863,
+									"length": 35
+								}
+							},
+							{
+								"content": "(150.00)",
+								"source": "D(1,610,307,657,307,657,322,610,322)",
+								"span": {
+									"offset": 908,
+									"length": 8
+								}
+							},
+							{
+								"content": "Adjustment / Pelarasan",
+								"source": "D(1,319,329,439,329,439,343,319,343)",
+								"span": {
+									"offset": 937,
+									"length": 22
+								}
+							},
+							{
+								"content": "0.00",
+								"source": "D(1,632,329,657,329,657,341,632,341)",
+								"span": {
+									"offset": 969,
+									"length": 4
+								}
+							},
+							{
+								"content": "Current Charges / Caj Semasa",
+								"source": "D(1,314,351,535,351,535,370,314,370)",
+								"span": {
+									"offset": 994,
+									"length": 28
+								}
+							},
+							{
+								"content": "69.20",
+								"source": "D(1,612,352,657,352,657,368,612,367)",
+								"span": {
+									"offset": 1032,
+									"length": 5
+								}
+							},
+							{
+								"content": "Payment Last Date / Tarikh Akhir Bayaran 08/04/2026",
+								"source": "D(1,314,374,605,374,605,390,314,390)",
+								"span": {
+									"offset": 1060,
+									"length": 51
+								}
+							},
+							{
+								"content": "Pay Now / Untuk Boyer Sekarony",
+								"source": "D(1,526,403,632,404,632,414,526,413)",
+								"span": {
+									"offset": 1113,
+									"length": 30
+								}
+							},
+							{
+								"content": "Click Here / kis Sim",
+								"source": "D(1,526,413,581,413,581,420,526,420)",
+								"span": {
+									"offset": 1144,
+									"length": 20
+								}
+							},
+							{
+								"content": ">",
+								"source": "D(1,642,406,650,406,650,418,642,418)",
+								"span": {
+									"offset": 1165,
+									"length": 2
+								}
+							},
+							{
+								"content": "Important Notice / Notis Penting",
+								"source": "D(1,58,483,266,483,266,500,58,500)",
+								"span": {
+									"offset": 1172,
+									"length": 32
+								}
+							},
+							{
+								"content": "Make your payment by your due date for seamless service. Thank you for keeping your account in good standing.",
+								"source": "D(1,54,520,633,520,633,534,54,534)",
+								"span": {
+									"offset": 1206,
+									"length": 109
+								}
+							},
+							{
+								"content": "From 1 July 2025, get your LHDN e-Invoice via the Hotlink App or Hotlink Self-serve Portal. For more info & FAQs,",
+								"source": "D(1,54,533,647,533,647,548,54,548)",
+								"span": {
+									"offset": 1316,
+									"length": 113
+								}
+							},
+							{
+								"content": "visit www.maxis.com.my/einvoice",
+								"source": "D(1,54,547,231,547,232,561,54,562)",
+								"span": {
+									"offset": 1430,
+									"length": 31
+								}
+							},
+							{
+								"content": "Important Bill Information / Informasi Bill Penting",
+								"source": "D(1,57,594,380,595,380,612,57,612)",
+								"span": {
+									"offset": 1466,
+									"length": 51
+								}
+							},
+							{
+								"content": "-Your service may be temporarily interrupted if full payment is not received by the due date. Reconnection fee and",
+								"source": "D(1,55,631,642,630,642,646,55,646)",
+								"span": {
+									"offset": 1519,
+									"length": 114
+								}
+							},
+							{
+								"content": "late payment charges may apply. / Perkhidmatan anda mungkin terganggu buat sementara waktu sekiranya bayaran",
+								"source": "D(1,54,645,647,645,647,659,54,660)",
+								"span": {
+									"offset": 1634,
+									"length": 108
+								}
+							},
+							{
+								"content": "penuh tidak diterima sebelum tarikh akhir bil. Caj penyambungan semula dan caj bayaran lewat akan dikenakan.",
+								"source": "D(1,54,659,623,659,623,673,54,673)",
+								"span": {
+									"offset": 1743,
+									"length": 108
+								}
+							},
+							{
+								"content": "-For refund of deposit or balance in your terminated account or service, please submit your request at",
+								"source": "D(1,55,672,580,673,580,686,55,686)",
+								"span": {
+									"offset": 1852,
+									"length": 102
+								}
+							},
+							{
+								"content": "www.maxis.com.my/refund / Untuk bayaran balik deposit atau baki dalam akaun atau sila hantar permintaan anda di",
+								"source": "D(1,54,686,651,686,651,700,54,700)",
+								"span": {
+									"offset": 1955,
+									"length": 111
+								}
+							},
+							{
+								"content": "www.maxis.com.my/refund",
+								"source": "D(1,53,701,199,700,199,714,53,715)",
+								"span": {
+									"offset": 2067,
+									"length": 23
+								}
+							},
+							{
+								"content": "1",
+								"source": "D(1,79,803,86,803,86,814,79,814)",
+								"span": {
+									"offset": 2092,
+									"length": 1
+								}
+							},
+							{
+								"content": "SI",
+								"source": "D(1,114,879,125,879,125,887,114,887)",
+								"span": {
+									"offset": 2095,
+									"length": 2
+								}
+							},
+							{
+								"content": "Total Payable(RM) /",
+								"source": "D(1,558,780,652,780,652,793,558,793)",
+								"span": {
+									"offset": 2110,
+									"length": 19
+								}
+							},
+							{
+								"content": "Jumiah Perlu Dibayar (RM)",
+								"source": "D(1,529,795,653,795,653,807,529,807)",
+								"span": {
+									"offset": 2130,
+									"length": 25
+								}
+							},
+							{
+								"content": "(4.90)",
+								"source": "D(1,569,808,651,808,651,839,569,839)",
+								"span": {
+									"offset": 2156,
+									"length": 6
+								}
+							},
+							{
+								"content": "Current Charges due date /",
+								"source": "D(1,524,839,652,839,652,852,524,851)",
+								"span": {
+									"offset": 2164,
+									"length": 26
+								}
+							},
+							{
+								"content": "Tarikh Akhir Bayaran Caj Semasa 08/04/2026",
+								"source": "D(1,440,852,652,852,652,865,440,865)",
+								"span": {
+									"offset": 2191,
+									"length": 42
+								}
+							},
+							{
+								"content": "Jom",
+								"source": "D(1,405,876,432,876,432,886,405,886)",
+								"span": {
+									"offset": 2235,
+									"length": 3
+								}
+							},
+							{
+								"content": "PAY",
+								"source": "D(1,408,886,432,886,432,898,408,898)",
+								"span": {
+									"offset": 2239,
+									"length": 3
+								}
+							},
+							{
+								"content": "Biller C",
+								"source": "D(1,459,874,502,873,502,885,459,885)",
+								"span": {
+									"offset": 2244,
+									"length": 8
+								}
+							},
+							{
+								"content": "Ref-1(Account M-",
+								"source": "D(1,459,889,553,889,553,901,459,902)",
+								"span": {
+									"offset": 2253,
+									"length": 16
+								}
+							},
+							{
+								"content": "JomPAY online at Internet and Mobile Banking with your",
+								"source": "D(1,401,915,649,916,649,928,401,927)",
+								"span": {
+									"offset": 2283,
+									"length": 54
+								}
+							},
+							{
+								"content": "Current, Savings or Credit Card account",
+								"source": "D(1,401,927,575,927,575,938,401,938)",
+								"span": {
+									"offset": 2338,
+									"length": 39
+								}
+							},
+							{
+								"content": "Ref-1 is the Account No/No. Akaun",
+								"source": "D(1,401,941,554,941,554,952,401,952)",
+								"span": {
+									"offset": 2378,
+									"length": 33
+								}
+							},
+							{
+								"content": "Page 1 out of 3",
+								"source": "D(1,583,982,661,982,661,995,583,996)",
+								"span": {
+									"offset": 2430,
+									"length": 15
+								}
+							}
+						]
+					}
+				],
+				"paragraphs": [
+					{
+						"content": "hotlink",
+						"source": "D(1,32,72,94,72,93,90,32,89)",
+						"span": {
+							"offset": 10,
+							"length": 7
+						}
+					},
+					{
+						"role": "pageHeader",
+						"content": "Maxis Broadband Sdn Bhd Registration No. 199201002549 (234053-D) Level 21, Menara Maxis, Kuala Lumpur City Centre, Off Jalan Ampang. 50088 Kuala Lumpur. Service Tax ID : W10-1808-32000489",
+						"source": "D(1,105,30,289,29,289,81,105,82)",
+						"span": {
+							"offset": 31,
+							"length": 209
+						}
+					},
+					{
+						"content": "BIL BIL",
+						"source": "D(1,623,46,673,46,673,81,623,80)",
+						"span": {
+							"offset": 242,
+							"length": 7
+						}
+					},
+					{
+						"role": "sectionHeading",
+						"content": "Your Bill Statement / Penyata Bil Anda",
+						"source": "D(1,57,117,310,117,310,134,57,134)",
+						"span": {
+							"offset": 252,
+							"length": 40
+						}
+					},
+					{
+						"content": "D",
+						"source": "D(1,58,151,67,151,67,159,58,159)",
+						"span": {
+							"offset": 294,
+							"length": 1
+						}
+					},
+					{
+						"content": "A",
+						"source": "D(1,55,200,62,200,62,208,55,208)",
+						"span": {
+							"offset": 297,
+							"length": 1
+						}
+					},
+					{
+						"content": "kaun",
+						"source": "D(1,125,201,144,201,144,208,125,208)",
+						"span": {
+							"offset": 300,
+							"length": 4
+						}
+					},
+					{
+						"content": "E",
+						"source": "D(1,57,210,63,210,63,217,57,217)",
+						"span": {
+							"offset": 306,
+							"length": 1
+						}
+					},
+					{
+						"content": "9 here to learn how pay your bill easily",
+						"source": "D(1,58,262,160,262,160,281,58,282)",
+						"span": {
+							"offset": 309,
+							"length": 40
+						}
+					},
+					{
+						"content": "For assistance, WhatsApp us at +6 012 345 1123 or call us at 123. Untuk bantuan, hubungi kami melalui Whatsapp di +60 12 345 1123 atau membuat panggilan ke 123.",
+						"source": "D(1,55,394,225,394,225,461,55,460)",
+						"span": {
+							"offset": 351,
+							"length": 160
+						}
+					},
+					{
+						"content": "Statement Date / Tarikh Penyata 14/03/2026 Billing Period / Tempoh Bil 14/02/2026 - 13/03/2026 Bill Reference / No. Rujukan 1601506579",
+						"source": "D(1,314,161,446,161,446,239,313,239)",
+						"span": {
+							"offset": 513,
+							"length": 134
+						}
+					},
+					{
+						"content": "Total Payable(RM) / Jumlah Perlu Dibayar (RM)",
+						"source": "D(1,524,186,660,186,660,211,524,211)",
+						"span": {
+							"offset": 649,
+							"length": 45
+						}
+					},
+					{
+						"content": "(4.90)",
+						"source": "D(1,575,212,658,212,658,244,575,244)",
+						"span": {
+							"offset": 696,
+							"length": 6
+						}
+					},
+					{
+						"content": "Overdue Amount / Caj Tertunggak (74.10)",
+						"source": "D(1,306,256,670,257,670,286,305,285)",
+						"span": {
+							"offset": 734,
+							"length": 39
+						}
+					},
+					{
+						"content": "Previous Balance / Baki Terdahulu",
+						"source": "D(1,305,285,577,285,577,304,305,304)",
+						"span": {
+							"offset": 794,
+							"length": 33
+						}
+					},
+					{
+						"content": "75.90",
+						"source": "D(1,577,285,670,286,670,304,577,304)",
+						"span": {
+							"offset": 837,
+							"length": 5
+						}
+					},
+					{
+						"content": "Payment Received / Bayaran Diterima",
+						"source": "D(1,305,304,577,304,577,325,305,325)",
+						"span": {
+							"offset": 863,
+							"length": 35
+						}
+					},
+					{
+						"content": "(150.00)",
+						"source": "D(1,577,304,670,304,670,325,577,325)",
+						"span": {
+							"offset": 908,
+							"length": 8
+						}
+					},
+					{
+						"content": "Adjustment / Pelarasan",
+						"source": "D(1,305,325,577,325,577,347,304,347)",
+						"span": {
+							"offset": 937,
+							"length": 22
+						}
+					},
+					{
+						"content": "0.00",
+						"source": "D(1,577,325,670,325,670,347,577,347)",
+						"span": {
+							"offset": 969,
+							"length": 4
+						}
+					},
+					{
+						"content": "Current Charges / Caj Semasa",
+						"source": "D(1,304,347,577,347,577,375,304,375)",
+						"span": {
+							"offset": 994,
+							"length": 28
+						}
+					},
+					{
+						"content": "69.20",
+						"source": "D(1,577,347,670,347,670,375,577,375)",
+						"span": {
+							"offset": 1032,
+							"length": 5
+						}
+					},
+					{
+						"content": "Payment Last Date / Tarikh Akhir Bayaran 08/04/2026",
+						"source": "D(1,314,374,605,374,605,390,314,390)",
+						"span": {
+							"offset": 1060,
+							"length": 51
+						}
+					},
+					{
+						"content": "Pay Now / Untuk Boyer Sekarony Click Here / kis Sim >",
+						"source": "D(1,526,403,650,403,650,420,526,420)",
+						"span": {
+							"offset": 1113,
+							"length": 54
+						}
+					},
+					{
+						"role": "sectionHeading",
+						"content": "Important Notice / Notis Penting",
+						"source": "D(1,58,483,266,483,266,500,58,500)",
+						"span": {
+							"offset": 1170,
+							"length": 34
+						}
+					},
+					{
+						"content": "Make your payment by your due date for seamless service. Thank you for keeping your account in good standing. From 1 July 2025, get your LHDN e-Invoice via the Hotlink App or Hotlink Self-serve Portal. For more info & FAQs, visit www.maxis.com.my/einvoice",
+						"source": "D(1,54,520,647,520,647,562,54,562)",
+						"span": {
+							"offset": 1206,
+							"length": 255
+						}
+					},
+					{
+						"role": "sectionHeading",
+						"content": "Important Bill Information / Informasi Bill Penting",
+						"source": "D(1,57,594,380,595,380,612,57,612)",
+						"span": {
+							"offset": 1464,
+							"length": 53
+						}
+					},
+					{
+						"content": "-Your service may be temporarily interrupted if full payment is not received by the due date. Reconnection fee and late payment charges may apply. / Perkhidmatan anda mungkin terganggu buat sementara waktu sekiranya bayaran penuh tidak diterima sebelum tarikh akhir bil. Caj penyambungan semula dan caj bayaran lewat akan dikenakan. -For refund of deposit or balance in your terminated account or service, please submit your request at www.maxis.com.my/refund / Untuk bayaran balik deposit atau baki dalam akaun atau sila hantar permintaan anda di www.maxis.com.my/refund",
+						"source": "D(1,53,631,651,629,651,713,53,715)",
+						"span": {
+							"offset": 1519,
+							"length": 571
+						}
+					},
+					{
+						"content": "1",
+						"source": "D(1,79,803,86,803,86,814,79,814)",
+						"span": {
+							"offset": 2092,
+							"length": 1
+						}
+					},
+					{
+						"content": "SI",
+						"source": "D(1,114,879,125,879,125,887,114,887)",
+						"span": {
+							"offset": 2095,
+							"length": 2
+						}
+					},
+					{
+						"content": "Total Payable(RM) / Jumiah Perlu Dibayar (RM) (4.90)",
+						"source": "D(1,529,780,653,780,653,839,529,839)",
+						"span": {
+							"offset": 2110,
+							"length": 52
+						}
+					},
+					{
+						"content": "Current Charges due date / Tarikh Akhir Bayaran Caj Semasa 08/04/2026",
+						"source": "D(1,440,839,652,839,652,865,440,865)",
+						"span": {
+							"offset": 2164,
+							"length": 69
+						}
+					},
+					{
+						"content": "Jom PAY",
+						"source": "D(1,405,876,432,876,432,898,406,898)",
+						"span": {
+							"offset": 2235,
+							"length": 7
+						}
+					},
+					{
+						"content": "Biller C Ref-1(Account M-",
+						"source": "D(1,459,874,553,873,553,901,459,902)",
+						"span": {
+							"offset": 2244,
+							"length": 25
+						}
+					},
+					{
+						"content": "JomPAY online at Internet and Mobile Banking with your Current, Savings or Credit Card account Ref-1 is the Account No/No. Akaun",
+						"source": "D(1,401,915,649,916,649,953,401,952)",
+						"span": {
+							"offset": 2283,
+							"length": 128
+						}
+					},
+					{
+						"role": "pageNumber",
+						"content": "Page 1 out of 3",
+						"source": "D(1,583,982,661,982,661,995,583,996)",
+						"span": {
+							"offset": 2413,
+							"length": 37
+						}
+					}
+				],
+				"sections": [
+					{
+						"span": {
+							"offset": 0,
+							"length": 2411
+						},
+						"elements": [
+							"/sections/1",
+							"/sections/2",
+							"/sections/3",
+							"/sections/4"
+						]
+					},
+					{
+						"span": {
+							"offset": 0,
+							"length": 249
+						},
+						"elements": [
+							"/figures/0",
+							"/paragraphs/2"
+						]
+					},
+					{
+						"span": {
+							"offset": 252,
+							"length": 915
+						},
+						"elements": [
+							"/paragraphs/3",
+							"/paragraphs/4",
+							"/paragraphs/5",
+							"/paragraphs/6",
+							"/paragraphs/7",
+							"/paragraphs/8",
+							"/paragraphs/9",
+							"/paragraphs/10",
+							"/paragraphs/11",
+							"/paragraphs/12",
+							"/tables/0",
+							"/paragraphs/22",
+							"/paragraphs/23"
+						]
+					},
+					{
+						"span": {
+							"offset": 1170,
+							"length": 291
+						},
+						"elements": [
+							"/paragraphs/24",
+							"/paragraphs/25"
+						]
+					},
+					{
+						"span": {
+							"offset": 1464,
+							"length": 947
+						},
+						"elements": [
+							"/paragraphs/26",
+							"/paragraphs/27",
+							"/paragraphs/28",
+							"/paragraphs/29",
+							"/figures/1",
+							"/paragraphs/34"
+						]
+					}
+				],
+				"tables": [
+					{
+						"rowCount": 5,
+						"columnCount": 2,
+						"cells": [
+							{
+								"kind": "content",
+								"rowIndex": 0,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 2,
+								"content": "Overdue Amount / Caj Tertunggak (74.10)",
+								"source": "D(1,306,256,670,257,670,286,305,285)",
+								"span": {
+									"offset": 734,
+									"length": 39
+								},
+								"elements": [
+									"/paragraphs/13"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 1,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Previous Balance / Baki Terdahulu",
+								"source": "D(1,305,285,577,285,577,304,305,304)",
+								"span": {
+									"offset": 794,
+									"length": 33
+								},
+								"elements": [
+									"/paragraphs/14"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 1,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "75.90",
+								"source": "D(1,577,285,670,286,670,304,577,304)",
+								"span": {
+									"offset": 837,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/15"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 2,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Payment Received / Bayaran Diterima",
+								"source": "D(1,305,304,577,304,577,325,305,325)",
+								"span": {
+									"offset": 863,
+									"length": 35
+								},
+								"elements": [
+									"/paragraphs/16"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 2,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "(150.00)",
+								"source": "D(1,577,304,670,304,670,325,577,325)",
+								"span": {
+									"offset": 908,
+									"length": 8
+								},
+								"elements": [
+									"/paragraphs/17"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 3,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Adjustment / Pelarasan",
+								"source": "D(1,305,325,577,325,577,347,304,347)",
+								"span": {
+									"offset": 937,
+									"length": 22
+								},
+								"elements": [
+									"/paragraphs/18"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 3,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "0.00",
+								"source": "D(1,577,325,670,325,670,347,577,347)",
+								"span": {
+									"offset": 969,
+									"length": 4
+								},
+								"elements": [
+									"/paragraphs/19"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 4,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Current Charges / Caj Semasa",
+								"source": "D(1,304,347,577,347,577,375,304,375)",
+								"span": {
+									"offset": 994,
+									"length": 28
+								},
+								"elements": [
+									"/paragraphs/20"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 4,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "69.20",
+								"source": "D(1,577,347,670,347,670,375,577,375)",
+								"span": {
+									"offset": 1032,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/21"
+								]
+							}
+						],
+						"source": "D(1,310,264,665,264,665,370,309,369)",
+						"span": {
+							"offset": 705,
+							"length": 352
+						}
+					}
+				],
+				"figures": [
+					{
+						"source": "D(1,33,21,94,21,94,90,33,90)",
+						"span": {
+							"offset": 0,
+							"length": 28
+						},
+						"elements": [
+							"/paragraphs/0"
+						],
+						"id": "1.1"
+					},
+					{
+						"source": "D(1,398,780,652,780,652,915,398,915)",
+						"span": {
+							"offset": 2100,
+							"length": 180
+						},
+						"elements": [
+							"/paragraphs/30",
+							"/paragraphs/31",
+							"/paragraphs/32",
+							"/paragraphs/33"
+						],
+						"id": "1.2"
+					}
+				]
+			}
+		]
+	},
+	"usage": {
+		"documentPages": 1,
+		"tokens": {
+			"contextualization": 1000,
+			"gpt-4o-input": 9445,
+			"gpt-4o-output": 366
+		}
+	}
+}

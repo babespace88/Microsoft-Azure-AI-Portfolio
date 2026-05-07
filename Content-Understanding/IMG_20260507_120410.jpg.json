@@ -1,0 +1,2681 @@
+{
+	"id": "da75424f-f8fe-4b06-9e8c-45d42f061480",
+	"status": "Succeeded",
+	"result": {
+		"analyzerId": "prebuilt-invoice",
+		"apiVersion": "2025-05-01-preview",
+		"createdAt": "2026-05-07T05:56:37Z",
+		"stringEncoding": "utf16",
+		"warnings": [],
+		"contents": [
+			{
+				"markdown": "<table>\n<tr>\n<th>Invoice No:</th>\n<th>W2GM2202605070012</th>\n<th>07/05/26</th>\n</tr>\n<tr>\n<td>BEAD KEYCHAIN 74018000</td>\n<td>2.60*1</td>\n<td>2,60</td>\n</tr>\n<tr>\n<td>GLASS BOTTLE 750ML 73939800</td>\n<td>2.60*2</td>\n<td>5.20</td>\n</tr>\n<tr>\n<td colspan=\"2\">MACARON COIN PURSE 11×9.5×3CM</td>\n<td></td>\n</tr>\n<tr>\n<td>73629800</td>\n<td>2.60*1</td>\n<td>2.60</td>\n</tr>\n<tr>\n<td colspan=\"2\">PHONE CHARM+TETHER PATCH E 29589</td>\n<td></td>\n</tr>\n<tr>\n<td>73927200</td>\n<td>2.60*1</td>\n<td>2.60</td>\n</tr>\n<tr>\n<td>Item 4</td>\n<td>Total</td>\n<td>13.00</td>\n</tr>\n<tr>\n<td>Qty 5</td>\n<td>Rounding</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>Total Saving 0.00</td>\n<td>Total</td>\n<td>13.00</td>\n</tr>\n<tr>\n<td rowspan=\"2\"></td>\n<td>Tender</td>\n<td></td>\n</tr>\n<tr>\n<td>CASH</td>\n<td>50.00</td>\n</tr>\n<tr>\n<td></td>\n<td>Change</td>\n<td>37.00</td>\n</tr>\n</table>\n\n\nSila SEMAK BAKI wang, barangan belian dan tarikh luput.\nPlease CHECK your BALANCE due and all goods purchased are IN\nORDER.\nTHANK YOU. SEE YOU AGAIN!\n** 30 day warranty ***\n\nPlease note that requests for e-invoices are permitted only until the 2nd\nday of the month following the purchase. To ensure you receive your\neinvoice, please submit your request promptly within this timeframe.\n",
+				"fields": {
+					"CustomerName": {
+						"type": "string",
+						"confidence": 0.981
+					},
+					"InvoiceDate": {
+						"type": "date",
+						"valueDate": "2026-05-07",
+						"spans": [
+							{
+								"offset": 65,
+								"length": 8
+							}
+						],
+						"confidence": 0.784,
+						"source": "D(1,2273.0000,60.0000,2698.0000,70.0000,2698.0000,163.0000,2269.0000,152.0000)"
+					},
+					"CustomerId": {
+						"type": "string",
+						"confidence": 0.837
+					},
+					"PurchaseOrder": {
+						"type": "string",
+						"confidence": 0.924
+					},
+					"InvoiceId": {
+						"type": "string",
+						"valueString": "W2GM2202605070012",
+						"spans": [
+							{
+								"offset": 38,
+								"length": 17
+							}
+						],
+						"confidence": 0.968,
+						"source": "D(1,917.0000,14.0000,1978.0000,47.0000,1975.0000,145.0000,915.0000,117.0000)"
+					},
+					"DueDate": {
+						"type": "date",
+						"confidence": 0.952
+					},
+					"VendorName": {
+						"type": "string",
+						"confidence": 0.8
+					},
+					"VendorAddress": {
+						"type": "string",
+						"confidence": 0.992
+					},
+					"VendorAddressRecipient": {
+						"type": "string",
+						"confidence": 0.992
+					},
+					"CustomerAddress": {
+						"type": "string",
+						"confidence": 0.993
+					},
+					"CustomerAddressRecipient": {
+						"type": "string",
+						"confidence": 0.991
+					},
+					"BillingAddress": {
+						"type": "string",
+						"confidence": 0.952
+					},
+					"BillingAddressRecipient": {
+						"type": "string",
+						"confidence": 0.991
+					},
+					"ShippingAddress": {
+						"type": "string",
+						"confidence": 0.991
+					},
+					"ShippingAddressRecipient": {
+						"type": "string",
+						"confidence": 0.992
+					},
+					"SubTotal": {
+						"type": "number",
+						"confidence": 0.935
+					},
+					"TotalDiscount": {
+						"type": "number",
+						"confidence": 0.936
+					},
+					"TotalTax": {
+						"type": "number",
+						"confidence": 0.944
+					},
+					"InvoiceTotal": {
+						"type": "number",
+						"valueNumber": 13,
+						"spans": [
+							{
+								"offset": 541,
+								"length": 5
+							}
+						],
+						"confidence": 0.884,
+						"source": "D(1,2357.0000,1048.0000,2602.0000,1050.0000,2602.0000,1123.0000,2357.0000,1121.0000)"
+					},
+					"AmountDue": {
+						"type": "number",
+						"valueNumber": 13,
+						"spans": [
+							{
+								"offset": 541,
+								"length": 5
+							}
+						],
+						"confidence": 0.884,
+						"source": "D(1,2357.0000,1048.0000,2602.0000,1050.0000,2602.0000,1123.0000,2357.0000,1121.0000)"
+					},
+					"PreviousUnpaidBalance": {
+						"type": "number",
+						"confidence": 0.986
+					},
+					"RemittanceAddress": {
+						"type": "string",
+						"confidence": 0.986
+					},
+					"RemittanceAddressRecipient": {
+						"type": "string",
+						"confidence": 0.947
+					},
+					"ServiceAddress": {
+						"type": "string",
+						"confidence": 0.987
+					},
+					"ServiceAddressRecipient": {
+						"type": "string",
+						"confidence": 0.996
+					},
+					"VendorTaxId": {
+						"type": "string",
+						"confidence": 0.981
+					},
+					"CustomerTaxId": {
+						"type": "string",
+						"confidence": 0.947
+					},
+					"PaymentTerm": {
+						"type": "string",
+						"confidence": 0.817
+					},
+					"TaxDetails": {
+						"type": "array"
+					},
+					"Items": {
+						"type": "array",
+						"valueArray": [
+							{
+								"type": "object",
+								"valueObject": {
+									"TotalPrice": {
+										"type": "number",
+										"valueNumber": 2.6,
+										"spans": [
+											{
+												"offset": 142,
+												"length": 4
+											}
+										],
+										"confidence": 0.981,
+										"source": "D(1,2379.0000,292.0000,2583.0000,294.0000,2583.0000,379.0000,2379.0000,378.0000)"
+									},
+									"Date": {
+										"type": "date",
+										"confidence": 0.84
+									},
+									"Description": {
+										"type": "string",
+										"valueString": "BEAD KEYCHAIN 74018000",
+										"spans": [
+											{
+												"offset": 94,
+												"length": 13
+											},
+											{
+												"offset": 108,
+												"length": 8
+											}
+										],
+										"confidence": 0.972,
+										"source": "D(1,229.0170,113.9194,1002.5109,126.1068,1000.9827,223.0985,227.4888,210.9111);D(1,284.0000,227.0000,763.0000,234.0000,763.0000,322.0000,283.0000,317.0000)"
+									},
+									"Quantity": {
+										"type": "number",
+										"confidence": 0.742
+									},
+									"ProductCode": {
+										"type": "string",
+										"confidence": 0.522
+									},
+									"TaxAmount": {
+										"type": "number",
+										"confidence": 0.935
+									},
+									"TaxRate": {
+										"type": "number",
+										"confidence": 0.935
+									},
+									"Unit": {
+										"type": "string",
+										"confidence": 0.671
+									},
+									"UnitPrice": {
+										"type": "number",
+										"valueNumber": 2.6,
+										"spans": [
+											{
+												"offset": 351,
+												"length": 4
+											}
+										],
+										"confidence": 0.962,
+										"source": "D(1,2348.0000,731.0000,2547.0000,732.0000,2547.0000,812.0000,2347.0000,811.0000)"
+									}
+								}
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"TotalPrice": {
+										"type": "number",
+										"valueNumber": 5.2,
+										"spans": [
+											{
+												"offset": 220,
+												"length": 4
+											}
+										],
+										"confidence": 0.995,
+										"source": "D(1,2365.0000,512.0000,2566.0000,512.0000,2566.0000,595.0000,2364.0000,595.0000)"
+									},
+									"Date": {
+										"type": "date",
+										"confidence": 0.942
+									},
+									"Description": {
+										"type": "string",
+										"valueString": "GLASS BOTTLE 750ML 73939800",
+										"spans": [
+											{
+												"offset": 167,
+												"length": 18
+											},
+											{
+												"offset": 186,
+												"length": 8
+											}
+										],
+										"confidence": 0.972,
+										"source": "D(1,235.0452,343.9018,1280.0598,366.4237,1278.0000,462.0000,232.9854,439.4781);D(1,289.0000,458.0000,768.0000,463.0000,768.0000,552.0000,288.0000,548.0000)"
+									},
+									"Quantity": {
+										"type": "number",
+										"valueNumber": 2,
+										"spans": [
+											{
+												"offset": 1090,
+												"length": 3
+											}
+										],
+										"confidence": 0.115,
+										"source": "D(1,2466.0000,2097.0000,2576.0000,2099.0000,2576.0000,2158.0000,2465.0000,2157.0000)"
+									},
+									"ProductCode": {
+										"type": "string",
+										"confidence": 0.701
+									},
+									"TaxAmount": {
+										"type": "number",
+										"confidence": 0.936
+									},
+									"TaxRate": {
+										"type": "number",
+										"confidence": 0.92
+									},
+									"Unit": {
+										"type": "string",
+										"confidence": 0.854
+									},
+									"UnitPrice": {
+										"type": "number",
+										"valueNumber": 2.6,
+										"spans": [
+											{
+												"offset": 351,
+												"length": 4
+											}
+										],
+										"confidence": 0.962,
+										"source": "D(1,2348.0000,731.0000,2547.0000,732.0000,2547.0000,812.0000,2347.0000,811.0000)"
+									}
+								}
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"TotalPrice": {
+										"type": "number",
+										"valueNumber": 2.6,
+										"spans": [
+											{
+												"offset": 351,
+												"length": 4
+											}
+										],
+										"confidence": 0.972,
+										"source": "D(1,2348.0000,731.0000,2547.0000,732.0000,2547.0000,812.0000,2347.0000,811.0000)"
+									},
+									"Date": {
+										"type": "date",
+										"confidence": 0.947
+									},
+									"Description": {
+										"type": "string",
+										"valueString": "MACARON COIN PURSE 11×9.5×3CM",
+										"spans": [
+											{
+												"offset": 257,
+												"length": 29
+											}
+										],
+										"confidence": 0.716,
+										"source": "D(1,243.7796,575.6451,1914.7299,608.1960,1912.9301,700.5895,241.9798,668.0386)"
+									},
+									"Quantity": {
+										"type": "number",
+										"confidence": 0.742
+									},
+									"ProductCode": {
+										"type": "string",
+										"valueString": "73629800",
+										"spans": [
+											{
+												"offset": 317,
+												"length": 8
+											}
+										],
+										"confidence": 0.911,
+										"source": "D(1,298.0000,685.0000,777.0000,691.0000,777.0000,775.0000,297.0000,770.0000)"
+									},
+									"TaxAmount": {
+										"type": "number",
+										"confidence": 0.936
+									},
+									"TaxRate": {
+										"type": "number",
+										"confidence": 0.934
+									},
+									"Unit": {
+										"type": "string",
+										"confidence": 0.782
+									},
+									"UnitPrice": {
+										"type": "number",
+										"valueNumber": 2.6,
+										"spans": [
+											{
+												"offset": 351,
+												"length": 4
+											}
+										],
+										"confidence": 0.962,
+										"source": "D(1,2348.0000,731.0000,2547.0000,732.0000,2547.0000,812.0000,2347.0000,811.0000)"
+									}
+								}
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"TotalPrice": {
+										"type": "number",
+										"valueNumber": 2.6,
+										"spans": [
+											{
+												"offset": 485,
+												"length": 4
+											}
+										],
+										"confidence": 0.995,
+										"source": "D(1,2329.0000,942.0000,2525.0000,942.0000,2525.0000,1018.0000,2329.0000,1017.0000)"
+									},
+									"Date": {
+										"type": "date",
+										"confidence": 0.945
+									},
+									"Description": {
+										"type": "string",
+										"valueString": "PHONE CHARM+TETHER PATCH E 29589",
+										"spans": [
+											{
+												"offset": 388,
+												"length": 32
+											}
+										],
+										"confidence": 0.962,
+										"source": "D(1,255.0029,801.7884,2053.1787,826.6098,2051.9435,916.0958,253.7677,891.2744)"
+									},
+									"Quantity": {
+										"type": "number",
+										"confidence": 0.904
+									},
+									"ProductCode": {
+										"type": "string",
+										"valueString": "73927200",
+										"spans": [
+											{
+												"offset": 451,
+												"length": 8
+											}
+										],
+										"confidence": 0.923,
+										"source": "D(1,312.0000,903.0000,784.0000,910.0000,784.0000,991.0000,312.0000,986.0000)"
+									},
+									"TaxAmount": {
+										"type": "number",
+										"confidence": 0.936
+									},
+									"TaxRate": {
+										"type": "number",
+										"confidence": 0.934
+									},
+									"Unit": {
+										"type": "string",
+										"confidence": 0.856
+									},
+									"UnitPrice": {
+										"type": "number",
+										"valueNumber": 2.6,
+										"spans": [
+											{
+												"offset": 485,
+												"length": 4
+											}
+										],
+										"confidence": 0.964,
+										"source": "D(1,2329.0000,942.0000,2525.0000,942.0000,2525.0000,1018.0000,2329.0000,1017.0000)"
+									}
+								}
+							}
+						]
+					}
+				},
+				"kind": "document",
+				"startPageNumber": 1,
+				"endPageNumber": 1,
+				"unit": "pixel",
+				"pages": [
+					{
+						"pageNumber": 1,
+						"angle": 0.3547093,
+						"width": 3060,
+						"height": 2390,
+						"spans": [
+							{
+								"offset": 0,
+								"length": 1231
+							}
+						],
+						"words": [
+							{
+								"content": "Invoice",
+								"span": {
+									"offset": 17,
+									"length": 7
+								},
+								"confidence": 0.858,
+								"source": "D(1,217,3,557,9,555,109,216,104)"
+							},
+							{
+								"content": "No:",
+								"span": {
+									"offset": 25,
+									"length": 3
+								},
+								"confidence": 0.959,
+								"source": "D(1,594,10,772,12,770,113,592,110)"
+							},
+							{
+								"content": "W2GM2202605070012",
+								"span": {
+									"offset": 38,
+									"length": 17
+								},
+								"confidence": 0.966,
+								"source": "D(1,917,14,1978,47,1975,145,915,117)"
+							},
+							{
+								"content": "07/05/26",
+								"span": {
+									"offset": 65,
+									"length": 8
+								},
+								"confidence": 0.963,
+								"source": "D(1,2273,60,2698,70,2698,163,2269,152)"
+							},
+							{
+								"content": "BEAD",
+								"span": {
+									"offset": 94,
+									"length": 4
+								},
+								"confidence": 0.983,
+								"source": "D(1,229,115,488,118,487,215,229,210)"
+							},
+							{
+								"content": "KEYCHAIN",
+								"span": {
+									"offset": 99,
+									"length": 8
+								},
+								"confidence": 0.994,
+								"source": "D(1,525,119,1001,127,1001,222,525,215)"
+							},
+							{
+								"content": "74018000",
+								"span": {
+									"offset": 108,
+									"length": 8
+								},
+								"confidence": 0.992,
+								"source": "D(1,284,227,763,234,763,322,283,317)"
+							},
+							{
+								"content": "2.60*1",
+								"span": {
+									"offset": 126,
+									"length": 6
+								},
+								"confidence": 0.914,
+								"source": "D(1,1789,278,2094,281,2094,372,1788,369)"
+							},
+							{
+								"content": "2,60",
+								"span": {
+									"offset": 142,
+									"length": 4
+								},
+								"confidence": 0.801,
+								"source": "D(1,2379,292,2583,294,2583,379,2379,378)"
+							},
+							{
+								"content": "GLASS",
+								"span": {
+									"offset": 167,
+									"length": 5
+								},
+								"confidence": 0.993,
+								"source": "D(1,235,346,553,352,553,445,235,439)"
+							},
+							{
+								"content": "BOTTLE",
+								"span": {
+									"offset": 173,
+									"length": 6
+								},
+								"confidence": 0.993,
+								"source": "D(1,592,353,940,360,939,454,591,446)"
+							},
+							{
+								"content": "750ML",
+								"span": {
+									"offset": 180,
+									"length": 5
+								},
+								"confidence": 0.992,
+								"source": "D(1,982,360,1278,368,1278,462,981,455)"
+							},
+							{
+								"content": "73939800",
+								"span": {
+									"offset": 186,
+									"length": 8
+								},
+								"confidence": 0.995,
+								"source": "D(1,289,458,768,463,768,552,288,548)"
+							},
+							{
+								"content": "2.60*2",
+								"span": {
+									"offset": 204,
+									"length": 6
+								},
+								"confidence": 0.963,
+								"source": "D(1,1781,500,2087,502,2087,587,1781,586)"
+							},
+							{
+								"content": "5.20",
+								"span": {
+									"offset": 220,
+									"length": 4
+								},
+								"confidence": 0.809,
+								"source": "D(1,2365,512,2566,512,2566,595,2364,595)"
+							},
+							{
+								"content": "MACARON",
+								"span": {
+									"offset": 257,
+									"length": 7
+								},
+								"confidence": 0.994,
+								"source": "D(1,245,576,716,585,714,675,242,667)"
+							},
+							{
+								"content": "COIN",
+								"span": {
+									"offset": 265,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,756,586,987,591,985,680,754,676)"
+							},
+							{
+								"content": "PURSE",
+								"span": {
+									"offset": 270,
+									"length": 5
+								},
+								"confidence": 0.993,
+								"source": "D(1,1032,591,1320,597,1318,689,1031,682)"
+							},
+							{
+								"content": "11×9.5×3CM",
+								"span": {
+									"offset": 276,
+									"length": 10
+								},
+								"confidence": 0.689,
+								"source": "D(1,1368,598,1913,611,1913,697,1366,689)"
+							},
+							{
+								"content": "73629800",
+								"span": {
+									"offset": 317,
+									"length": 8
+								},
+								"confidence": 0.994,
+								"source": "D(1,298,685,777,691,777,775,297,770)"
+							},
+							{
+								"content": "2.60*1",
+								"span": {
+									"offset": 335,
+									"length": 6
+								},
+								"confidence": 0.989,
+								"source": "D(1,1774,719,2066,721,2066,804,1774,802)"
+							},
+							{
+								"content": "2.60",
+								"span": {
+									"offset": 351,
+									"length": 4
+								},
+								"confidence": 0.652,
+								"source": "D(1,2348,731,2547,732,2547,812,2347,811)"
+							},
+							{
+								"content": "PHONE",
+								"span": {
+									"offset": 388,
+									"length": 5
+								},
+								"confidence": 0.997,
+								"source": "D(1,255,802,581,807,580,894,254,890)"
+							},
+							{
+								"content": "CHARM+TETHER",
+								"span": {
+									"offset": 394,
+									"length": 12
+								},
+								"confidence": 0.968,
+								"source": "D(1,614,807,1357,817,1356,906,613,894)"
+							},
+							{
+								"content": "PATCH",
+								"span": {
+									"offset": 407,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,1394,818,1662,823,1662,909,1393,907)"
+							},
+							{
+								"content": "E",
+								"span": {
+									"offset": 413,
+									"length": 1
+								},
+								"confidence": 0.995,
+								"source": "D(1,1704,823,1750,824,1749,910,1703,909)"
+							},
+							{
+								"content": "29589",
+								"span": {
+									"offset": 415,
+									"length": 5
+								},
+								"confidence": 0.998,
+								"source": "D(1,1787,824,2052,829,2052,912,1786,910)"
+							},
+							{
+								"content": "73927200",
+								"span": {
+									"offset": 451,
+									"length": 8
+								},
+								"confidence": 0.996,
+								"source": "D(1,312,903,784,910,784,991,312,986)"
+							},
+							{
+								"content": "2.60*1",
+								"span": {
+									"offset": 469,
+									"length": 6
+								},
+								"confidence": 0.977,
+								"source": "D(1,1764,931,2054,933,2054,1010,1765,1008)"
+							},
+							{
+								"content": "2.60",
+								"span": {
+									"offset": 485,
+									"length": 4
+								},
+								"confidence": 0.936,
+								"source": "D(1,2329,942,2525,942,2525,1018,2329,1017)"
+							},
+							{
+								"content": "Item",
+								"span": {
+									"offset": 510,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,264,1024,496,1026,496,1109,263,1108)"
+							},
+							{
+								"content": "4",
+								"span": {
+									"offset": 515,
+									"length": 1
+								},
+								"confidence": 0.99,
+								"source": "D(1,549,1027,604,1028,604,1109,548,1109)"
+							},
+							{
+								"content": "Total",
+								"span": {
+									"offset": 526,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,1792,1030,2001,1030,2001,1106,1792,1104)"
+							},
+							{
+								"content": "13.00",
+								"span": {
+									"offset": 541,
+									"length": 5
+								},
+								"confidence": 0.913,
+								"source": "D(1,2357,1048,2602,1050,2602,1123,2357,1121)"
+							},
+							{
+								"content": "Qty",
+								"span": {
+									"offset": 567,
+									"length": 3
+								},
+								"confidence": 0.973,
+								"source": "D(1,275,1133,436,1134,437,1223,275,1224)"
+							},
+							{
+								"content": "5",
+								"span": {
+									"offset": 571,
+									"length": 1
+								},
+								"confidence": 0.996,
+								"source": "D(1,558,1133,609,1133,609,1218,558,1219)"
+							},
+							{
+								"content": "Rounding",
+								"span": {
+									"offset": 582,
+									"length": 8
+								},
+								"confidence": 0.995,
+								"source": "D(1,1610,1137,1991,1140,1991,1222,1609,1217)"
+							},
+							{
+								"content": "0.00",
+								"span": {
+									"offset": 600,
+									"length": 4
+								},
+								"confidence": 0.988,
+								"source": "D(1,2395,1147,2592,1148,2592,1220,2395,1219)"
+							},
+							{
+								"content": "Total",
+								"span": {
+									"offset": 625,
+									"length": 5
+								},
+								"confidence": 0.992,
+								"source": "D(1,278,1230,500,1231,499,1313,277,1309)"
+							},
+							{
+								"content": "Saving",
+								"span": {
+									"offset": 631,
+									"length": 6
+								},
+								"confidence": 0.993,
+								"source": "D(1,539,1231,836,1234,836,1318,539,1314)"
+							},
+							{
+								"content": "0.00",
+								"span": {
+									"offset": 638,
+									"length": 4
+								},
+								"confidence": 0.973,
+								"source": "D(1,979,1232,1179,1232,1179,1307,980,1307)"
+							},
+							{
+								"content": "Total",
+								"span": {
+									"offset": 652,
+									"length": 5
+								},
+								"confidence": 0.994,
+								"source": "D(1,1786,1230,1990,1229,1990,1303,1786,1302)"
+							},
+							{
+								"content": "13.00",
+								"span": {
+									"offset": 667,
+									"length": 5
+								},
+								"confidence": 0.977,
+								"source": "D(1,2341,1236,2582,1237,2582,1308,2341,1308)"
+							},
+							{
+								"content": "Tender",
+								"span": {
+									"offset": 715,
+									"length": 6
+								},
+								"confidence": 0.994,
+								"source": "D(1,1704,1319,1989,1319,1989,1394,1704,1393)"
+							},
+							{
+								"content": "CASH",
+								"span": {
+									"offset": 752,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,1755,1421,1982,1421,1982,1493,1755,1493)"
+							},
+							{
+								"content": "50.00",
+								"span": {
+									"offset": 766,
+									"length": 5
+								},
+								"confidence": 0.994,
+								"source": "D(1,2335,1423,2570,1424,2570,1496,2335,1496)"
+							},
+							{
+								"content": "Change",
+								"span": {
+									"offset": 802,
+									"length": 6
+								},
+								"confidence": 0.998,
+								"source": "D(1,1676,1520,1982,1521,1982,1594,1677,1594)"
+							},
+							{
+								"content": "37.00",
+								"span": {
+									"offset": 818,
+									"length": 5
+								},
+								"confidence": 0.993,
+								"source": "D(1,2332,1521,2567,1523,2567,1594,2332,1593)"
+							},
+							{
+								"content": "Sila",
+								"span": {
+									"offset": 846,
+									"length": 4
+								},
+								"confidence": 0.989,
+								"source": "D(1,539,1636,670,1633,671,1691,540,1692)"
+							},
+							{
+								"content": "SEMAK",
+								"span": {
+									"offset": 851,
+									"length": 5
+								},
+								"confidence": 0.995,
+								"source": "D(1,691,1633,931,1628,932,1688,692,1691)"
+							},
+							{
+								"content": "BAKI",
+								"span": {
+									"offset": 857,
+									"length": 4
+								},
+								"confidence": 0.986,
+								"source": "D(1,956,1628,1112,1625,1113,1685,957,1687)"
+							},
+							{
+								"content": "wang,",
+								"span": {
+									"offset": 862,
+									"length": 5
+								},
+								"confidence": 0.989,
+								"source": "D(1,1136,1625,1317,1622,1318,1683,1136,1685)"
+							},
+							{
+								"content": "barangan",
+								"span": {
+									"offset": 868,
+									"length": 8
+								},
+								"confidence": 0.992,
+								"source": "D(1,1346,1621,1620,1618,1621,1679,1346,1682)"
+							},
+							{
+								"content": "belian",
+								"span": {
+									"offset": 877,
+									"length": 6
+								},
+								"confidence": 0.987,
+								"source": "D(1,1643,1618,1823,1615,1824,1677,1644,1679)"
+							},
+							{
+								"content": "dan",
+								"span": {
+									"offset": 884,
+									"length": 3
+								},
+								"confidence": 0.995,
+								"source": "D(1,1842,1615,1952,1614,1952,1675,1843,1676)"
+							},
+							{
+								"content": "tarikh",
+								"span": {
+									"offset": 888,
+									"length": 6
+								},
+								"confidence": 0.99,
+								"source": "D(1,1969,1614,2147,1614,2147,1674,1970,1675)"
+							},
+							{
+								"content": "luput.",
+								"span": {
+									"offset": 895,
+									"length": 6
+								},
+								"confidence": 0.989,
+								"source": "D(1,2168,1614,2342,1615,2342,1676,2167,1675)"
+							},
+							{
+								"content": "Please",
+								"span": {
+									"offset": 902,
+									"length": 6
+								},
+								"confidence": 0.991,
+								"source": "D(1,421,1713,644,1708,646,1770,421,1772)"
+							},
+							{
+								"content": "CHECK",
+								"span": {
+									"offset": 909,
+									"length": 5
+								},
+								"confidence": 0.993,
+								"source": "D(1,668,1707,907,1702,909,1765,670,1769)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 915,
+									"length": 4
+								},
+								"confidence": 0.994,
+								"source": "D(1,926,1701,1070,1698,1072,1760,928,1764)"
+							},
+							{
+								"content": "BALANCE",
+								"span": {
+									"offset": 920,
+									"length": 7
+								},
+								"confidence": 0.993,
+								"source": "D(1,1090,1698,1391,1693,1392,1754,1092,1760)"
+							},
+							{
+								"content": "due",
+								"span": {
+									"offset": 928,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,1414,1692,1523,1691,1524,1752,1415,1753)"
+							},
+							{
+								"content": "and",
+								"span": {
+									"offset": 932,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,1543,1690,1650,1689,1651,1751,1544,1752)"
+							},
+							{
+								"content": "all",
+								"span": {
+									"offset": 936,
+									"length": 3
+								},
+								"confidence": 0.99,
+								"source": "D(1,1671,1689,1744,1687,1745,1750,1672,1751)"
+							},
+							{
+								"content": "goods",
+								"span": {
+									"offset": 940,
+									"length": 5
+								},
+								"confidence": 0.989,
+								"source": "D(1,1767,1687,1942,1686,1942,1749,1767,1750)"
+							},
+							{
+								"content": "purchased",
+								"span": {
+									"offset": 946,
+									"length": 9
+								},
+								"confidence": 0.949,
+								"source": "D(1,1965,1686,2277,1688,2277,1748,1965,1749)"
+							},
+							{
+								"content": "are",
+								"span": {
+									"offset": 956,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,2299,1688,2398,1690,2397,1749,2299,1748)"
+							},
+							{
+								"content": "IN",
+								"span": {
+									"offset": 960,
+									"length": 2
+								},
+								"confidence": 0.98,
+								"source": "D(1,2420,1690,2490,1691,2490,1750,2419,1749)"
+							},
+							{
+								"content": "ORDER.",
+								"span": {
+									"offset": 963,
+									"length": 6
+								},
+								"confidence": 0.996,
+								"source": "D(1,1360,1766,1603,1763,1603,1815,1361,1818)"
+							},
+							{
+								"content": "THANK",
+								"span": {
+									"offset": 970,
+									"length": 5
+								},
+								"confidence": 0.976,
+								"source": "D(1,983,1850,1224,1843,1225,1899,985,1904)"
+							},
+							{
+								"content": "YOU.",
+								"span": {
+									"offset": 976,
+									"length": 4
+								},
+								"confidence": 0.958,
+								"source": "D(1,1244,1842,1402,1838,1404,1894,1245,1898)"
+							},
+							{
+								"content": "SEE",
+								"span": {
+									"offset": 981,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,1446,1837,1573,1834,1575,1891,1448,1893)"
+							},
+							{
+								"content": "YOU",
+								"span": {
+									"offset": 985,
+									"length": 3
+								},
+								"confidence": 0.998,
+								"source": "D(1,1586,1834,1722,1831,1724,1887,1588,1890)"
+							},
+							{
+								"content": "AGAIN!",
+								"span": {
+									"offset": 989,
+									"length": 6
+								},
+								"confidence": 0.977,
+								"source": "D(1,1742,1831,1967,1828,1967,1882,1744,1887)"
+							},
+							{
+								"content": "**",
+								"span": {
+									"offset": 996,
+									"length": 2
+								},
+								"confidence": 0.768,
+								"source": "D(1,1149,1917,1220,1916,1220,1978,1150,1978)"
+							},
+							{
+								"content": "30",
+								"span": {
+									"offset": 999,
+									"length": 2
+								},
+								"confidence": 0.989,
+								"source": "D(1,1232,1915,1305,1913,1305,1977,1233,1977)"
+							},
+							{
+								"content": "day",
+								"span": {
+									"offset": 1002,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,1325,1913,1434,1911,1435,1975,1325,1977)"
+							},
+							{
+								"content": "warranty",
+								"span": {
+									"offset": 1006,
+									"length": 8
+								},
+								"confidence": 0.977,
+								"source": "D(1,1454,1911,1706,1904,1709,1968,1456,1975)"
+							},
+							{
+								"content": "***",
+								"span": {
+									"offset": 1015,
+									"length": 3
+								},
+								"confidence": 0.95,
+								"source": "D(1,1718,1904,1812,1899,1812,1962,1721,1967)"
+							},
+							{
+								"content": "Please",
+								"span": {
+									"offset": 1020,
+									"length": 6
+								},
+								"confidence": 0.917,
+								"source": "D(1,355,2113,564,2112,564,2173,355,2172)"
+							},
+							{
+								"content": "note",
+								"span": {
+									"offset": 1027,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,586,2111,723,2109,723,2171,586,2173)"
+							},
+							{
+								"content": "that",
+								"span": {
+									"offset": 1032,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,742,2109,868,2106,869,2168,742,2170)"
+							},
+							{
+								"content": "requests",
+								"span": {
+									"offset": 1037,
+									"length": 8
+								},
+								"confidence": 0.649,
+								"source": "D(1,890,2106,1158,2099,1159,2161,891,2168)"
+							},
+							{
+								"content": "for",
+								"span": {
+									"offset": 1046,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,1182,2099,1268,2097,1269,2158,1183,2161)"
+							},
+							{
+								"content": "e-invoices",
+								"span": {
+									"offset": 1050,
+									"length": 10
+								},
+								"confidence": 0.685,
+								"source": "D(1,1283,2096,1592,2089,1593,2149,1284,2158)"
+							},
+							{
+								"content": "are",
+								"span": {
+									"offset": 1061,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,1614,2088,1707,2087,1707,2148,1615,2148)"
+							},
+							{
+								"content": "permitted",
+								"span": {
+									"offset": 1065,
+									"length": 9
+								},
+								"confidence": 0.984,
+								"source": "D(1,1720,2087,2017,2087,2017,2150,1720,2148)"
+							},
+							{
+								"content": "only",
+								"span": {
+									"offset": 1075,
+									"length": 4
+								},
+								"confidence": 0.977,
+								"source": "D(1,2039,2088,2167,2090,2166,2152,2038,2150)"
+							},
+							{
+								"content": "until",
+								"span": {
+									"offset": 1080,
+									"length": 5
+								},
+								"confidence": 0.977,
+								"source": "D(1,2190,2091,2327,2094,2326,2155,2189,2152)"
+							},
+							{
+								"content": "the",
+								"span": {
+									"offset": 1086,
+									"length": 3
+								},
+								"confidence": 0.992,
+								"source": "D(1,2349,2095,2447,2097,2446,2157,2348,2155)"
+							},
+							{
+								"content": "2nd",
+								"span": {
+									"offset": 1090,
+									"length": 3
+								},
+								"confidence": 0.988,
+								"source": "D(1,2466,2097,2576,2099,2576,2158,2465,2157)"
+							},
+							{
+								"content": "day",
+								"span": {
+									"offset": 1094,
+									"length": 3
+								},
+								"confidence": 0.956,
+								"source": "D(1,411,2189,524,2188,524,2249,411,2249)"
+							},
+							{
+								"content": "of",
+								"span": {
+									"offset": 1098,
+									"length": 2
+								},
+								"confidence": 0.983,
+								"source": "D(1,545,2187,607,2186,607,2247,545,2249)"
+							},
+							{
+								"content": "the",
+								"span": {
+									"offset": 1101,
+									"length": 3
+								},
+								"confidence": 0.996,
+								"source": "D(1,623,2185,724,2182,725,2244,623,2247)"
+							},
+							{
+								"content": "month",
+								"span": {
+									"offset": 1105,
+									"length": 5
+								},
+								"confidence": 0.959,
+								"source": "D(1,746,2182,940,2177,941,2239,746,2244)"
+							},
+							{
+								"content": "following",
+								"span": {
+									"offset": 1111,
+									"length": 9
+								},
+								"confidence": 0.986,
+								"source": "D(1,960,2177,1243,2168,1244,2232,961,2239)"
+							},
+							{
+								"content": "the",
+								"span": {
+									"offset": 1121,
+									"length": 3
+								},
+								"confidence": 0.996,
+								"source": "D(1,1264,2168,1360,2165,1361,2229,1265,2232)"
+							},
+							{
+								"content": "purchase.",
+								"span": {
+									"offset": 1125,
+									"length": 9
+								},
+								"confidence": 0.956,
+								"source": "D(1,1383,2164,1680,2157,1680,2221,1384,2228)"
+							},
+							{
+								"content": "To",
+								"span": {
+									"offset": 1135,
+									"length": 2
+								},
+								"confidence": 0.991,
+								"source": "D(1,1693,2156,1765,2156,1765,2221,1693,2221)"
+							},
+							{
+								"content": "ensure",
+								"span": {
+									"offset": 1138,
+									"length": 6
+								},
+								"confidence": 0.963,
+								"source": "D(1,1786,2156,1991,2160,1990,2222,1785,2221)"
+							},
+							{
+								"content": "you",
+								"span": {
+									"offset": 1145,
+									"length": 3
+								},
+								"confidence": 0.989,
+								"source": "D(1,2010,2160,2115,2163,2114,2225,2009,2223)"
+							},
+							{
+								"content": "receive",
+								"span": {
+									"offset": 1149,
+									"length": 7
+								},
+								"confidence": 0.85,
+								"source": "D(1,2141,2164,2368,2172,2367,2233,2139,2225)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 1157,
+									"length": 4
+								},
+								"confidence": 0.995,
+								"source": "D(1,2388,2173,2526,2177,2526,2237,2386,2233)"
+							},
+							{
+								"content": "einvoice,",
+								"span": {
+									"offset": 1162,
+									"length": 9
+								},
+								"confidence": 0.603,
+								"source": "D(1,394,2260,695,2254,696,2318,393,2319)"
+							},
+							{
+								"content": "please",
+								"span": {
+									"offset": 1172,
+									"length": 6
+								},
+								"confidence": 0.948,
+								"source": "D(1,719,2254,924,2250,926,2312,720,2317)"
+							},
+							{
+								"content": "submit",
+								"span": {
+									"offset": 1179,
+									"length": 6
+								},
+								"confidence": 0.946,
+								"source": "D(1,946,2249,1158,2244,1159,2307,947,2311)"
+							},
+							{
+								"content": "your",
+								"span": {
+									"offset": 1186,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,1178,2243,1315,2239,1317,2302,1179,2307)"
+							},
+							{
+								"content": "request",
+								"span": {
+									"offset": 1191,
+									"length": 7
+								},
+								"confidence": 0.963,
+								"source": "D(1,1332,2239,1558,2232,1559,2296,1334,2302)"
+							},
+							{
+								"content": "promptly",
+								"span": {
+									"offset": 1199,
+									"length": 8
+								},
+								"confidence": 0.973,
+								"source": "D(1,1579,2232,1839,2230,1838,2293,1580,2295)"
+							},
+							{
+								"content": "within",
+								"span": {
+									"offset": 1208,
+									"length": 6
+								},
+								"confidence": 0.992,
+								"source": "D(1,1861,2230,2050,2232,2049,2293,1861,2293)"
+							},
+							{
+								"content": "this",
+								"span": {
+									"offset": 1215,
+									"length": 4
+								},
+								"confidence": 0.992,
+								"source": "D(1,2067,2233,2182,2237,2181,2296,2066,2294)"
+							},
+							{
+								"content": "timeframe.",
+								"span": {
+									"offset": 1220,
+									"length": 10
+								},
+								"confidence": 0.913,
+								"source": "D(1,2205,2237,2531,2249,2531,2305,2204,2297)"
+							}
+						],
+						"lines": [
+							{
+								"content": "Invoice No: W2GM2202605070012",
+								"source": "D(1,217,2,1978,36,1975,145,215,102)",
+								"span": {
+									"offset": 17,
+									"length": 38
+								}
+							},
+							{
+								"content": "07/05/26",
+								"source": "D(1,2272,60,2698,68,2696,162,2269,151)",
+								"span": {
+									"offset": 65,
+									"length": 8
+								}
+							},
+							{
+								"content": "BEAD KEYCHAIN",
+								"source": "D(1,229,115,1001,126,1000,222,228,209)",
+								"span": {
+									"offset": 94,
+									"length": 13
+								}
+							},
+							{
+								"content": "74018000",
+								"source": "D(1,284,227,763,234,762,322,282,317)",
+								"span": {
+									"offset": 108,
+									"length": 8
+								}
+							},
+							{
+								"content": "2.60*1",
+								"source": "D(1,1789,278,2094,281,2093,372,1788,368)",
+								"span": {
+									"offset": 126,
+									"length": 6
+								}
+							},
+							{
+								"content": "2,60",
+								"source": "D(1,2379,292,2583,293,2582,378,2379,377)",
+								"span": {
+									"offset": 142,
+									"length": 4
+								}
+							},
+							{
+								"content": "GLASS BOTTLE 750ML",
+								"source": "D(1,235,346,1278,367,1277,461,234,437)",
+								"span": {
+									"offset": 167,
+									"length": 18
+								}
+							},
+							{
+								"content": "73939800",
+								"source": "D(1,289,457,768,463,768,552,287,548)",
+								"span": {
+									"offset": 186,
+									"length": 8
+								}
+							},
+							{
+								"content": "2.60*2",
+								"source": "D(1,1781,500,2087,502,2087,587,1780,584)",
+								"span": {
+									"offset": 204,
+									"length": 6
+								}
+							},
+							{
+								"content": "5.20",
+								"source": "D(1,2364,511,2566,511,2566,594,2364,594)",
+								"span": {
+									"offset": 220,
+									"length": 4
+								}
+							},
+							{
+								"content": "MACARON COIN PURSE 11×9.5×3CM",
+								"source": "D(1,244,575,1913,609,1912,697,242,666)",
+								"span": {
+									"offset": 257,
+									"length": 29
+								}
+							},
+							{
+								"content": "73629800",
+								"source": "D(1,298,685,777,691,776,775,297,771)",
+								"span": {
+									"offset": 317,
+									"length": 8
+								}
+							},
+							{
+								"content": "2.60*1",
+								"source": "D(1,1774,719,2066,721,2066,803,1774,801)",
+								"span": {
+									"offset": 335,
+									"length": 6
+								}
+							},
+							{
+								"content": "2.60",
+								"source": "D(1,2348,730,2547,732,2546,811,2347,809)",
+								"span": {
+									"offset": 351,
+									"length": 4
+								}
+							},
+							{
+								"content": "PHONE CHARM+TETHER PATCH E 29589",
+								"source": "D(1,255,801,2052,827,2050,912,254,889)",
+								"span": {
+									"offset": 388,
+									"length": 32
+								}
+							},
+							{
+								"content": "73927200",
+								"source": "D(1,312,903,784,910,783,991,311,985)",
+								"span": {
+									"offset": 451,
+									"length": 8
+								}
+							},
+							{
+								"content": "2.60*1",
+								"source": "D(1,1764,931,2054,933,2053,1010,1764,1008)",
+								"span": {
+									"offset": 469,
+									"length": 6
+								}
+							},
+							{
+								"content": "2.60",
+								"source": "D(1,2329,941,2525,942,2524,1018,2328,1017)",
+								"span": {
+									"offset": 485,
+									"length": 4
+								}
+							},
+							{
+								"content": "Item 4",
+								"source": "D(1,264,1024,604,1027,603,1109,264,1107)",
+								"span": {
+									"offset": 510,
+									"length": 6
+								}
+							},
+							{
+								"content": "Total",
+								"source": "D(1,1792,1029,2000,1029,2000,1105,1792,1104)",
+								"span": {
+									"offset": 526,
+									"length": 5
+								}
+							},
+							{
+								"content": "13.00",
+								"source": "D(1,2357,1047,2602,1050,2601,1123,2356,1120)",
+								"span": {
+									"offset": 541,
+									"length": 5
+								}
+							},
+							{
+								"content": "Qty 5",
+								"source": "D(1,274,1133,608,1132,609,1222,275,1224)",
+								"span": {
+									"offset": 567,
+									"length": 5
+								}
+							},
+							{
+								"content": "Rounding",
+								"source": "D(1,1610,1136,1990,1139,1989,1222,1609,1217)",
+								"span": {
+									"offset": 582,
+									"length": 8
+								}
+							},
+							{
+								"content": "0.00",
+								"source": "D(1,2395,1146,2592,1148,2591,1219,2395,1218)",
+								"span": {
+									"offset": 600,
+									"length": 4
+								}
+							},
+							{
+								"content": "Total Saving",
+								"source": "D(1,278,1229,836,1233,836,1318,277,1313)",
+								"span": {
+									"offset": 625,
+									"length": 12
+								}
+							},
+							{
+								"content": "0.00",
+								"source": "D(1,979,1232,1178,1231,1178,1307,979,1307)",
+								"span": {
+									"offset": 638,
+									"length": 4
+								}
+							},
+							{
+								"content": "Total",
+								"source": "D(1,1786,1229,1989,1229,1989,1302,1786,1301)",
+								"span": {
+									"offset": 652,
+									"length": 5
+								}
+							},
+							{
+								"content": "13.00",
+								"source": "D(1,2341,1235,2581,1237,2581,1308,2340,1307)",
+								"span": {
+									"offset": 667,
+									"length": 5
+								}
+							},
+							{
+								"content": "Tender",
+								"source": "D(1,1704,1318,1989,1319,1989,1393,1703,1393)",
+								"span": {
+									"offset": 715,
+									"length": 6
+								}
+							},
+							{
+								"content": "CASH",
+								"source": "D(1,1755,1421,1981,1421,1981,1493,1755,1493)",
+								"span": {
+									"offset": 752,
+									"length": 4
+								}
+							},
+							{
+								"content": "50.00",
+								"source": "D(1,2335,1423,2570,1424,2570,1496,2334,1495)",
+								"span": {
+									"offset": 766,
+									"length": 5
+								}
+							},
+							{
+								"content": "Change",
+								"source": "D(1,1676,1519,1982,1520,1982,1593,1676,1593)",
+								"span": {
+									"offset": 802,
+									"length": 6
+								}
+							},
+							{
+								"content": "37.00",
+								"source": "D(1,2332,1521,2567,1522,2567,1593,2332,1592)",
+								"span": {
+									"offset": 818,
+									"length": 5
+								}
+							},
+							{
+								"content": "Sila SEMAK BAKI wang, barangan belian dan tarikh luput.",
+								"source": "D(1,539,1627,2342,1613,2342,1675,539,1692)",
+								"span": {
+									"offset": 846,
+									"length": 55
+								}
+							},
+							{
+								"content": "Please CHECK your BALANCE due and all goods purchased are IN",
+								"source": "D(1,420,1702,2489,1686,2490,1749,421,1772)",
+								"span": {
+									"offset": 902,
+									"length": 60
+								}
+							},
+							{
+								"content": "ORDER.",
+								"source": "D(1,1360,1766,1602,1763,1602,1815,1361,1818)",
+								"span": {
+									"offset": 963,
+									"length": 6
+								}
+							},
+							{
+								"content": "THANK YOU. SEE YOU AGAIN!",
+								"source": "D(1,983,1848,1965,1827,1967,1881,984,1904)",
+								"span": {
+									"offset": 970,
+									"length": 25
+								}
+							},
+							{
+								"content": "** 30 day warranty ***",
+								"source": "D(1,1149,1917,1810,1900,1811,1965,1150,1978)",
+								"span": {
+									"offset": 996,
+									"length": 22
+								}
+							},
+							{
+								"content": "Please note that requests for e-invoices are permitted only until the 2nd",
+								"source": "D(1,354,2097,2576,2085,2576,2157,355,2173)",
+								"span": {
+									"offset": 1020,
+									"length": 73
+								}
+							},
+							{
+								"content": "day of the month following the purchase. To ensure you receive your",
+								"source": "D(1,410,2164,2525,2155,2525,2236,411,2248)",
+								"span": {
+									"offset": 1094,
+									"length": 67
+								}
+							},
+							{
+								"content": "einvoice, please submit your request promptly within this timeframe.",
+								"source": "D(1,393,2239,2530,2229,2531,2304,393,2319)",
+								"span": {
+									"offset": 1162,
+									"length": 68
+								}
+							}
+						]
+					}
+				],
+				"paragraphs": [
+					{
+						"content": "Invoice No:",
+						"source": "D(1,162,0,1414,0,1417,126,167,101)",
+						"span": {
+							"offset": 17,
+							"length": 11
+						}
+					},
+					{
+						"content": "W2GM2202605070012",
+						"source": "D(1,1414,0,2214,0,2208,141,1417,126)",
+						"span": {
+							"offset": 38,
+							"length": 17
+						}
+					},
+					{
+						"content": "07/05/26",
+						"source": "D(1,2214,0,2740,2,2737,149,2208,141)",
+						"span": {
+							"offset": 65,
+							"length": 8
+						}
+					},
+					{
+						"content": "BEAD KEYCHAIN 74018000",
+						"source": "D(1,167,101,1417,126,1417,354,177,328)",
+						"span": {
+							"offset": 94,
+							"length": 22
+						}
+					},
+					{
+						"content": "2.60*1",
+						"source": "D(1,1417,126,2208,141,2206,372,1417,354)",
+						"span": {
+							"offset": 126,
+							"length": 6
+						}
+					},
+					{
+						"content": "2,60",
+						"source": "D(1,2208,141,2737,149,2730,384,2206,372)",
+						"span": {
+							"offset": 142,
+							"length": 4
+						}
+					},
+					{
+						"content": "GLASS BOTTLE 750ML 73939800",
+						"source": "D(1,177,328,1417,354,1419,579,188,559)",
+						"span": {
+							"offset": 167,
+							"length": 27
+						}
+					},
+					{
+						"content": "2.60*2",
+						"source": "D(1,1417,354,2206,372,2201,594,1419,579)",
+						"span": {
+							"offset": 204,
+							"length": 6
+						}
+					},
+					{
+						"content": "5.20",
+						"source": "D(1,2206,372,2730,384,2724,604,2201,594)",
+						"span": {
+							"offset": 220,
+							"length": 4
+						}
+					},
+					{
+						"content": "MACARON COIN PURSE 11×9.5×3CM",
+						"source": "D(1,188,559,2201,594,2198,708,193,675)",
+						"span": {
+							"offset": 257,
+							"length": 29
+						}
+					},
+					{
+						"content": "73629800",
+						"source": "D(1,193,675,1419,693,1419,799,198,784)",
+						"span": {
+							"offset": 317,
+							"length": 8
+						}
+					},
+					{
+						"content": "2.60*1",
+						"source": "D(1,1419,693,2198,708,2196,812,1419,799)",
+						"span": {
+							"offset": 335,
+							"length": 6
+						}
+					},
+					{
+						"content": "2.60",
+						"source": "D(1,2198,708,2722,716,2719,819,2196,812)",
+						"span": {
+							"offset": 351,
+							"length": 4
+						}
+					},
+					{
+						"content": "PHONE CHARM+TETHER PATCH E 29589",
+						"source": "D(1,198,784,2196,812,2193,916,203,895)",
+						"span": {
+							"offset": 388,
+							"length": 32
+						}
+					},
+					{
+						"content": "73927200",
+						"source": "D(1,203,895,1422,905,1422,1017,208,1009)",
+						"span": {
+							"offset": 451,
+							"length": 8
+						}
+					},
+					{
+						"content": "2.60*1",
+						"source": "D(1,1422,905,2193,916,2191,1024,1422,1017)",
+						"span": {
+							"offset": 469,
+							"length": 6
+						}
+					},
+					{
+						"content": "2.60",
+						"source": "D(1,2193,916,2717,921,2714,1030,2191,1024)",
+						"span": {
+							"offset": 485,
+							"length": 4
+						}
+					},
+					{
+						"content": "Item 4",
+						"source": "D(1,208,1009,1422,1017,1422,1121,210,1116)",
+						"span": {
+							"offset": 510,
+							"length": 6
+						}
+					},
+					{
+						"content": "Total",
+						"source": "D(1,1422,1017,2191,1024,2188,1126,1422,1121)",
+						"span": {
+							"offset": 526,
+							"length": 5
+						}
+					},
+					{
+						"content": "13.00",
+						"source": "D(1,2191,1024,2714,1030,2712,1131,2188,1126)",
+						"span": {
+							"offset": 541,
+							"length": 5
+						}
+					},
+					{
+						"content": "Qty 5",
+						"source": "D(1,210,1116,1422,1121,1422,1222,215,1217)",
+						"span": {
+							"offset": 567,
+							"length": 5
+						}
+					},
+					{
+						"content": "Rounding",
+						"source": "D(1,1422,1121,2188,1126,2188,1224,1422,1222)",
+						"span": {
+							"offset": 582,
+							"length": 8
+						}
+					},
+					{
+						"content": "0.00",
+						"source": "D(1,2188,1126,2712,1131,2709,1229,2188,1224)",
+						"span": {
+							"offset": 600,
+							"length": 4
+						}
+					},
+					{
+						"content": "Total Saving 0.00",
+						"source": "D(1,215,1217,1422,1222,1424,1321,220,1323)",
+						"span": {
+							"offset": 625,
+							"length": 17
+						}
+					},
+					{
+						"content": "Total",
+						"source": "D(1,1422,1222,2188,1224,2186,1321,1424,1321)",
+						"span": {
+							"offset": 652,
+							"length": 5
+						}
+					},
+					{
+						"content": "13.00",
+						"source": "D(1,2188,1224,2709,1229,2707,1323,2186,1321)",
+						"span": {
+							"offset": 667,
+							"length": 5
+						}
+					},
+					{
+						"content": "Tender",
+						"source": "D(1,1424,1321,2186,1321,2183,1407,1424,1407)",
+						"span": {
+							"offset": 715,
+							"length": 6
+						}
+					},
+					{
+						"content": "CASH",
+						"source": "D(1,1424,1407,2183,1407,2181,1513,1424,1515)",
+						"span": {
+							"offset": 752,
+							"length": 4
+						}
+					},
+					{
+						"content": "50.00",
+						"source": "D(1,2183,1407,2704,1409,2702,1513,2181,1513)",
+						"span": {
+							"offset": 766,
+							"length": 5
+						}
+					},
+					{
+						"content": "Change",
+						"source": "D(1,1424,1515,2181,1513,2181,1599,1427,1604)",
+						"span": {
+							"offset": 802,
+							"length": 6
+						}
+					},
+					{
+						"content": "37.00",
+						"source": "D(1,2181,1513,2702,1513,2699,1596,2181,1599)",
+						"span": {
+							"offset": 818,
+							"length": 5
+						}
+					},
+					{
+						"content": "Sila SEMAK BAKI wang, barangan belian dan tarikh luput. Please CHECK your BALANCE due and all goods purchased are IN ORDER. THANK YOU. SEE YOU AGAIN! ** 30 day warranty ***",
+						"source": "D(1,420,1628,2489,1612,2492,1967,422,1984)",
+						"span": {
+							"offset": 846,
+							"length": 172
+						}
+					},
+					{
+						"content": "Please note that requests for e-invoices are permitted only until the 2nd day of the month following the purchase. To ensure you receive your einvoice, please submit your request promptly within this timeframe.",
+						"source": "D(1,354,2097,2576,2085,2577,2308,355,2319)",
+						"span": {
+							"offset": 1020,
+							"length": 210
+						}
+					}
+				],
+				"sections": [
+					{
+						"span": {
+							"offset": 0,
+							"length": 1230
+						},
+						"elements": [
+							"/tables/0",
+							"/paragraphs/31",
+							"/paragraphs/32"
+						]
+					}
+				],
+				"tables": [
+					{
+						"rowCount": 13,
+						"columnCount": 3,
+						"cells": [
+							{
+								"kind": "columnHeader",
+								"rowIndex": 0,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Invoice No:",
+								"source": "D(1,162,0,1414,0,1417,126,167,101)",
+								"span": {
+									"offset": 17,
+									"length": 11
+								},
+								"elements": [
+									"/paragraphs/0"
+								]
+							},
+							{
+								"kind": "columnHeader",
+								"rowIndex": 0,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "W2GM2202605070012",
+								"source": "D(1,1414,0,2214,0,2208,141,1417,126)",
+								"span": {
+									"offset": 38,
+									"length": 17
+								},
+								"elements": [
+									"/paragraphs/1"
+								]
+							},
+							{
+								"kind": "columnHeader",
+								"rowIndex": 0,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "07/05/26",
+								"source": "D(1,2214,0,2740,2,2737,149,2208,141)",
+								"span": {
+									"offset": 65,
+									"length": 8
+								},
+								"elements": [
+									"/paragraphs/2"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 1,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "BEAD KEYCHAIN 74018000",
+								"source": "D(1,167,101,1417,126,1417,354,177,328)",
+								"span": {
+									"offset": 94,
+									"length": 22
+								},
+								"elements": [
+									"/paragraphs/3"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 1,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "2.60*1",
+								"source": "D(1,1417,126,2208,141,2206,372,1417,354)",
+								"span": {
+									"offset": 126,
+									"length": 6
+								},
+								"elements": [
+									"/paragraphs/4"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 1,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "2,60",
+								"source": "D(1,2208,141,2737,149,2730,384,2206,372)",
+								"span": {
+									"offset": 142,
+									"length": 4
+								},
+								"elements": [
+									"/paragraphs/5"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 2,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "GLASS BOTTLE 750ML 73939800",
+								"source": "D(1,177,328,1417,354,1419,579,188,559)",
+								"span": {
+									"offset": 167,
+									"length": 27
+								},
+								"elements": [
+									"/paragraphs/6"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 2,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "2.60*2",
+								"source": "D(1,1417,354,2206,372,2201,594,1419,579)",
+								"span": {
+									"offset": 204,
+									"length": 6
+								},
+								"elements": [
+									"/paragraphs/7"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 2,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "5.20",
+								"source": "D(1,2206,372,2730,384,2724,604,2201,594)",
+								"span": {
+									"offset": 220,
+									"length": 4
+								},
+								"elements": [
+									"/paragraphs/8"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 3,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 2,
+								"content": "MACARON COIN PURSE 11×9.5×3CM",
+								"source": "D(1,188,559,2201,594,2198,708,193,675)",
+								"span": {
+									"offset": 257,
+									"length": 29
+								},
+								"elements": [
+									"/paragraphs/9"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 3,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "",
+								"source": "D(1,2201,594,2724,604,2722,716,2198,708)",
+								"span": {
+									"offset": 296,
+									"length": 0
+								}
+							},
+							{
+								"kind": "content",
+								"rowIndex": 4,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "73629800",
+								"source": "D(1,193,675,1419,693,1419,799,198,784)",
+								"span": {
+									"offset": 317,
+									"length": 8
+								},
+								"elements": [
+									"/paragraphs/10"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 4,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "2.60*1",
+								"source": "D(1,1419,693,2198,708,2196,812,1419,799)",
+								"span": {
+									"offset": 335,
+									"length": 6
+								},
+								"elements": [
+									"/paragraphs/11"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 4,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "2.60",
+								"source": "D(1,2198,708,2722,716,2719,819,2196,812)",
+								"span": {
+									"offset": 351,
+									"length": 4
+								},
+								"elements": [
+									"/paragraphs/12"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 5,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 2,
+								"content": "PHONE CHARM+TETHER PATCH E 29589",
+								"source": "D(1,198,784,2196,812,2193,916,203,895)",
+								"span": {
+									"offset": 388,
+									"length": 32
+								},
+								"elements": [
+									"/paragraphs/13"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 5,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "",
+								"source": "D(1,2196,812,2719,819,2717,921,2193,916)",
+								"span": {
+									"offset": 430,
+									"length": 0
+								}
+							},
+							{
+								"kind": "content",
+								"rowIndex": 6,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "73927200",
+								"source": "D(1,203,895,1422,905,1422,1017,208,1009)",
+								"span": {
+									"offset": 451,
+									"length": 8
+								},
+								"elements": [
+									"/paragraphs/14"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 6,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "2.60*1",
+								"source": "D(1,1422,905,2193,916,2191,1024,1422,1017)",
+								"span": {
+									"offset": 469,
+									"length": 6
+								},
+								"elements": [
+									"/paragraphs/15"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 6,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "2.60",
+								"source": "D(1,2193,916,2717,921,2714,1030,2191,1024)",
+								"span": {
+									"offset": 485,
+									"length": 4
+								},
+								"elements": [
+									"/paragraphs/16"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 7,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Item 4",
+								"source": "D(1,208,1009,1422,1017,1422,1121,210,1116)",
+								"span": {
+									"offset": 510,
+									"length": 6
+								},
+								"elements": [
+									"/paragraphs/17"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 7,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Total",
+								"source": "D(1,1422,1017,2191,1024,2188,1126,1422,1121)",
+								"span": {
+									"offset": 526,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/18"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 7,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "13.00",
+								"source": "D(1,2191,1024,2714,1030,2712,1131,2188,1126)",
+								"span": {
+									"offset": 541,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/19"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 8,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Qty 5",
+								"source": "D(1,210,1116,1422,1121,1422,1222,215,1217)",
+								"span": {
+									"offset": 567,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/20"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 8,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Rounding",
+								"source": "D(1,1422,1121,2188,1126,2188,1224,1422,1222)",
+								"span": {
+									"offset": 582,
+									"length": 8
+								},
+								"elements": [
+									"/paragraphs/21"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 8,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "0.00",
+								"source": "D(1,2188,1126,2712,1131,2709,1229,2188,1224)",
+								"span": {
+									"offset": 600,
+									"length": 4
+								},
+								"elements": [
+									"/paragraphs/22"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 9,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Total Saving 0.00",
+								"source": "D(1,215,1217,1422,1222,1424,1321,220,1323)",
+								"span": {
+									"offset": 625,
+									"length": 17
+								},
+								"elements": [
+									"/paragraphs/23"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 9,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Total",
+								"source": "D(1,1422,1222,2188,1224,2186,1321,1424,1321)",
+								"span": {
+									"offset": 652,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/24"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 9,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "13.00",
+								"source": "D(1,2188,1224,2709,1229,2707,1323,2186,1321)",
+								"span": {
+									"offset": 667,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/25"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 10,
+								"columnIndex": 0,
+								"rowSpan": 2,
+								"columnSpan": 1,
+								"content": "",
+								"source": "D(1,220,1323,1424,1321,1424,1515,228,1520)",
+								"span": {
+									"offset": 705,
+									"length": 0
+								}
+							},
+							{
+								"kind": "content",
+								"rowIndex": 10,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Tender",
+								"source": "D(1,1424,1321,2186,1321,2183,1407,1424,1407)",
+								"span": {
+									"offset": 715,
+									"length": 6
+								},
+								"elements": [
+									"/paragraphs/26"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 10,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "",
+								"source": "D(1,2186,1321,2707,1323,2704,1409,2183,1407)",
+								"span": {
+									"offset": 731,
+									"length": 0
+								}
+							},
+							{
+								"kind": "content",
+								"rowIndex": 11,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "CASH",
+								"source": "D(1,1424,1407,2183,1407,2181,1513,1424,1515)",
+								"span": {
+									"offset": 752,
+									"length": 4
+								},
+								"elements": [
+									"/paragraphs/27"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 11,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "50.00",
+								"source": "D(1,2183,1407,2704,1409,2702,1513,2181,1513)",
+								"span": {
+									"offset": 766,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/28"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 12,
+								"columnIndex": 0,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "",
+								"source": "D(1,228,1520,1424,1515,1427,1604,233,1617)",
+								"span": {
+									"offset": 792,
+									"length": 0
+								}
+							},
+							{
+								"kind": "content",
+								"rowIndex": 12,
+								"columnIndex": 1,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "Change",
+								"source": "D(1,1424,1515,2181,1513,2181,1599,1427,1604)",
+								"span": {
+									"offset": 802,
+									"length": 6
+								},
+								"elements": [
+									"/paragraphs/29"
+								]
+							},
+							{
+								"kind": "content",
+								"rowIndex": 12,
+								"columnIndex": 2,
+								"rowSpan": 1,
+								"columnSpan": 1,
+								"content": "37.00",
+								"source": "D(1,2181,1513,2702,1513,2699,1596,2181,1599)",
+								"span": {
+									"offset": 818,
+									"length": 5
+								},
+								"elements": [
+									"/paragraphs/30"
+								]
+							}
+						],
+						"source": "D(1,244,19,2685,78,2662,1627,219,1569)",
+						"span": {
+							"offset": 0,
+							"length": 843
+						}
+					}
+				]
+			}
+		]
+	},
+	"usage": {
+		"documentPages": 1,
+		"tokens": {
+			"contextualization": 1000,
+			"gpt-4o-input": 9963,
+			"gpt-4o-output": 973
+		}
+	}
+}
