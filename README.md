@@ -2,17 +2,18 @@
 
 # 1. AI Safety & Moderation
 
---> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Safety-Moderation
+content moderation --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Safety-Moderation
 
---> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Harmful-Meme-Image-Detection
+harmful meme image detection --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Harmful-Meme-Image-Detection
 
---> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Prompt-Shield
+prompt shield --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Prompt-Shield
 
---> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Protect-Material-Detection
+protect material detection --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Protect-Material-Detection
 
 
 
 # 2. Content Understanding
 
---> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Understanding
+invoice --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Understanding
 
+document --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/blob/main/Content-Understanding-Document/Magikap_AI_Fraud_Detection_Agent_2.ipynb
