@@ -1,1 +1,42 @@
 
+AI Insurance Agent
+
+🚀 Overview
+
+This project is an AI-powered Insurance Assistant that helps users get quick and clear answers about insurance topics. It is designed to respond only to insurance-related questions in a simple, accurate, and professional way.
+
+🎯 Purpose
+
+The AI Insurance Agent is built to:
+
+Answer insurance questions clearly
+Provide fast and simple explanations
+Assist users with general insurance understanding
+Avoid unnecessary or unrelated responses
+
+⚙️ How It Works
+
+User asks an insurance-related question
+AI processes the query
+AI returns a short and direct answer
+If the question is not related to insurance, the AI will reject it politely
+
+🧠 Features
+
+Focused only on insurance topics
+Simple and easy-to-understand responses
+No coding or technical output
+Strict filtering for non-insurance questions
+
+🚫 Limitations
+
+Does not generate code
+Does not answer unrelated topics
+Does not provide legal or financial advice
+
+🎯 Example Use Cases
+
+What is life insurance?
+How does car insurance work?
+What is covered under health insurance?
+Understanding insurance terms
