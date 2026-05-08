@@ -1,1 +1,29 @@
+📄 AI Document Understanding & Fraud Detection Agent
 
+🚀 Overview
+
+This project uses Azure AI Content Understanding and an AI Agent (GPT-4.1) to extract information from documents and detect fraud automatically.
+
+It can process invoices, contracts, and financial documents by converting them into structured JSON and analyzing them for suspicious activity.
+
+⚙️ How It Works
+
+Upload a document or image
+AI extracts data and converts it into JSON
+AI agent analyzes the data
+System returns result: REAL, FAKE, SUSPICIOUS, or INVALID
+
+🧠 Features
+
+Extract text, tables, and key data from documents
+Convert documents into structured JSON
+Detect fraud or inconsistencies
+Simple AI classification with explanation
+
+
+🎯 Use Cases
+
+Invoice verification
+Fraud detection
+Document validation
+Financial checks
