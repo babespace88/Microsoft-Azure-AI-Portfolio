@@ -1,0 +1,32 @@
+{
+"content_id": "sample_001",
+"input_source": "upload",
+"content_type": "meme_image",
+"source_project": "Multimodal-AI-Safety-Agent",
+
+"hate_severity": 0,
+"sexual_severity": 0,
+"self_harm_severity": 0,
+"violence_severity": 2,
+
+"max_severity": 2,
+"risk_level": "Low Risk",
+
+"prompt_attack_detected": false,
+"document_attack_detected": false,
+"protected_material_detected": false,
+
+"political_content_detected": true,
+"is_satire": true,
+
+"detected_categories": [
+"political satire",
+"offensive language",
+"mild harassment"
+],
+
+"final_decision": "ALLOW",
+"action_taken": "none",
+
+"reasoning": "The content contains satire, offensive expressions, or mild harassment but does not include severe hate speech, violent threats, self-harm encouragement, explicit sexual exploitation, or dangerous misinformation. No prompt injection attacks or protected material violations were detected. The content is considered low risk under AI safety moderation guidelines."
+}
