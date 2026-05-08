@@ -17,3 +17,5 @@ protect material detection --> https://github.com/babespace88/Microsoft-Azure-AI
 invoice --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Understanding
 
 document --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/blob/main/Content-Understanding-Document/Magikap_AI_Fraud_Detection_Agent_2.ipynb
+
+insurance --> https://github.com/babespace88/Microsoft-Azure-AI-Portfolio/tree/main/Content-Understanding-Insurance
